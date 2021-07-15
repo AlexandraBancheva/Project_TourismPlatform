@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6p9uw1mPXVdYMtrGxjvrFMq4OJzJiGikFObiP918FeIoEvtSK7iipyTuxBMWpEKvghUJ9947LfeG3sUc3xlAww==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Data\\TourismPlatform.Data.Common\\TourismPlatform.Data.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alex\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
+    "C:\\Users\\Alex\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512",
+    "C:\\Users\\Alex\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

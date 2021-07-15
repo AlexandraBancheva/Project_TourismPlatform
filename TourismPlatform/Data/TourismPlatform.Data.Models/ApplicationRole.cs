@@ -3,9 +3,8 @@ namespace TourismPlatform.Data.Models
 {
     using System;
 
-    using TourismPlatform.Data.Common.Models;
-
     using Microsoft.AspNetCore.Identity;
+    using TourismPlatform.Data.Common.Models;
 
     public class ApplicationRole : IdentityRole, IAuditInfo, IDeletableEntity
     {
