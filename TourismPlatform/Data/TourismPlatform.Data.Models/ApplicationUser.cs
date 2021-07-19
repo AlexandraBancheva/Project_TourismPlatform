@@ -3,7 +3,7 @@ namespace TourismPlatform.Data.Models
 {
     using System;
     using System.Collections.Generic;
-
+    using System.ComponentModel.DataAnnotations;
     using Microsoft.AspNetCore.Identity;
     using TourismPlatform.Data.Common.Models;
 
@@ -18,8 +18,10 @@ namespace TourismPlatform.Data.Models
             this.Offerts = new HashSet<Offert>();
         }
 
+        [Required]
         public string FirstName { get; set; }
 
+        [Required]
         public string LastName { get; set; }
 
         // Audit info

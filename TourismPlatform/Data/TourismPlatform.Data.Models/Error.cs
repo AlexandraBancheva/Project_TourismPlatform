@@ -1,11 +1,10 @@
-﻿using System;
-
-namespace TourismPlatform.Data.Models
+﻿namespace TourismPlatform.Data.Models
 {
+    using TourismPlatform.Data.Common.Models;
 
     public class Error
     {
-        public string Id => Guid.NewGuid().ToString();
+        public int Id { get; set; }
 
         public string OffertId { get; set; }
 
@@ -13,7 +12,7 @@ namespace TourismPlatform.Data.Models
 
         public string UserId { get; set; }
 
-        public ApplicationUser User { get; set; }
+        public virtual ApplicationUser User { get; set; }
 
         public string Description { get; set; }
     }

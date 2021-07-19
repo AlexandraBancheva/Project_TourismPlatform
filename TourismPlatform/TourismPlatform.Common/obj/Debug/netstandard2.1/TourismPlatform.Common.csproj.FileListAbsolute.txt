@@ -1,0 +1,9 @@
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\TourismPlatform.Common\bin\Debug\netstandard2.1\TourismPlatform.Common.deps.json
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\TourismPlatform.Common\bin\Debug\netstandard2.1\TourismPlatform.Common.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\TourismPlatform.Common\bin\Debug\netstandard2.1\TourismPlatform.Common.pdb
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\TourismPlatform.Common\obj\Debug\netstandard2.1\TourismPlatform.Common.csproj.AssemblyReference.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\TourismPlatform.Common\obj\Debug\netstandard2.1\TourismPlatform.Common.AssemblyInfoInputs.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\TourismPlatform.Common\obj\Debug\netstandard2.1\TourismPlatform.Common.AssemblyInfo.cs
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\TourismPlatform.Common\obj\Debug\netstandard2.1\TourismPlatform.Common.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\TourismPlatform.Common\obj\Debug\netstandard2.1\TourismPlatform.Common.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\TourismPlatform.Common\obj\Debug\netstandard2.1\TourismPlatform.Common.pdb

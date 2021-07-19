@@ -12,9 +12,9 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("TourismPlatform.Data", "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Data\\TourismPlatfor" +
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("TourismPlatform.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Data\\TourismPlatfor" +
     "m.Data", "TourismPlatform.Data.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("TourismPlatform.Web", "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Web\\TourismPlatform" +
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("TourismPlatform.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Web\\TourismPlatform" +
     ".Web", "TourismPlatform.Web.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("TourismPlatform.Web.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]

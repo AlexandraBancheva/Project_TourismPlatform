@@ -1,0 +1,9 @@
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Services\TourismPlatform.Services.Messaging\bin\Debug\netstandard2.1\TourismPlatform.Services.Messaging.deps.json
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Services\TourismPlatform.Services.Messaging\bin\Debug\netstandard2.1\TourismPlatform.Services.Messaging.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Services\TourismPlatform.Services.Messaging\bin\Debug\netstandard2.1\TourismPlatform.Services.Messaging.pdb
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Services\TourismPlatform.Services.Messaging\obj\Debug\netstandard2.1\TourismPlatform.Services.Messaging.csproj.AssemblyReference.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Services\TourismPlatform.Services.Messaging\obj\Debug\netstandard2.1\TourismPlatform.Services.Messaging.AssemblyInfoInputs.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Services\TourismPlatform.Services.Messaging\obj\Debug\netstandard2.1\TourismPlatform.Services.Messaging.AssemblyInfo.cs
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Services\TourismPlatform.Services.Messaging\obj\Debug\netstandard2.1\TourismPlatform.Services.Messaging.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Services\TourismPlatform.Services.Messaging\obj\Debug\netstandard2.1\TourismPlatform.Services.Messaging.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Services\TourismPlatform.Services.Messaging\obj\Debug\netstandard2.1\TourismPlatform.Services.Messaging.pdb

@@ -6,11 +6,10 @@
     using System.Threading;
     using System.Threading.Tasks;
 
-    using TourismPlatform.Data.Common.Models;
-    using TourismPlatform.Data.Models;
-
     using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore;
+    using TourismPlatform.Data.Common.Models;
+    using TourismPlatform.Data.Models;
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser, ApplicationRole, string>
     {
@@ -25,6 +24,22 @@
         }
 
         public DbSet<Setting> Settings { get; set; }
+
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+
+        public DbSet<Agency> Agencies { get; set; }
+
+        public DbSet<Category> Categories { get; set; }
+
+        public DbSet<Error> Errors { get; set; }
+
+        public DbSet<Image> Images { get; set; }
+
+        public DbSet<Offert> Offerts { get; set; }
+
+        public DbSet<ApplicationUserOffert> ApplicationUsersOfferts { get; set; }
+
+        public DbSet<Transport> Transports { get; set; }
 
         public override int SaveChanges() => this.SaveChanges(true);
 
