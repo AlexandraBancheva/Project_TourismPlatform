@@ -382,6 +382,20 @@
         "runtime": {
           "bin/placeholder/TourismPlatform.Services.Mapping.dll": {}
         }
+      },
+      "TourismPlatform.Web.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "TourismPlatform.Data.Models": "1.0.0",
+          "TourismPlatform.Services.Mapping": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TourismPlatform.Web.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TourismPlatform.Web.ViewModels.dll": {}
+        }
       }
     }
   },
@@ -1190,6 +1204,11 @@
       "type": "project",
       "path": "../TourismPlatform.Services.Mapping/TourismPlatform.Services.Mapping.csproj",
       "msbuildProject": "../TourismPlatform.Services.Mapping/TourismPlatform.Services.Mapping.csproj"
+    },
+    "TourismPlatform.Web.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../../Web/TourismPlatform.Web.ViewModels/TourismPlatform.Web.ViewModels.csproj",
+      "msbuildProject": "../../Web/TourismPlatform.Web.ViewModels/TourismPlatform.Web.ViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1197,7 +1216,8 @@
       "StyleCop.Analyzers >= 1.2.0-beta.312",
       "TourismPlatform.Data.Common >= 1.0.0",
       "TourismPlatform.Data.Models >= 1.0.0",
-      "TourismPlatform.Services.Mapping >= 1.0.0"
+      "TourismPlatform.Services.Mapping >= 1.0.0",
+      "TourismPlatform.Web.ViewModels >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1240,6 +1260,9 @@
             },
             "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Services\\TourismPlatform.Services.Mapping\\TourismPlatform.Services.Mapping.csproj": {
               "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Services\\TourismPlatform.Services.Mapping\\TourismPlatform.Services.Mapping.csproj"
+            },
+            "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Web\\TourismPlatform.Web.ViewModels\\TourismPlatform.Web.ViewModels.csproj": {
+              "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Web\\TourismPlatform.Web.ViewModels\\TourismPlatform.Web.ViewModels.csproj"
             }
           }
         }

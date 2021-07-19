@@ -23,4 +23,8 @@
     <ProjectReference Include="..\..\Services\TourismPlatform.Services.Mapping\TourismPlatform.Services.Mapping.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Home\" />
+  </ItemGroup>
+
 </Project>
