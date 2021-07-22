@@ -2445,7 +2445,8 @@
         "dependencies": {
           "TourismPlatform.Data.Common": "1.0.0",
           "TourismPlatform.Data.Models": "1.0.0",
-          "TourismPlatform.Services.Mapping": "1.0.0"
+          "TourismPlatform.Services.Mapping": "1.0.0",
+          "TourismPlatform.Web.ViewModels": "1.0.0"
         },
         "runtime": {
           "TourismPlatform.Services.Data.dll": {}

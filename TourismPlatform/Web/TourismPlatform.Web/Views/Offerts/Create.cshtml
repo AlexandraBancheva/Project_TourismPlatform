@@ -1,0 +1,52 @@
+﻿@model TourismPlatform.Web.ViewModels.Offerts.OffertFormModel
+@{ 
+    this.ViewData["Title"] = "Add new offert";
+    var categoryItems = this.Model.CategoryItems.Select(x => new SelectListItem(x.Value, x.Key));
+    var transportItems = this.Model.TransportItems.Select(x => new SelectListItem(x.Value, x.Key));
+}
+
+<form method="post" class="col-md-6 offset-md-3">
+    <h1>@this.ViewData["Title"]</h1>
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="StartTrip"></label>
+        <input asp-for="StartTrip" class="form-control" type="date" />
+        <span asp-validation-for="StartTrip" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EndTrip"></label>
+        <input asp-for="EndTrip" class="form-control" type="date" />
+        <span asp-validation-for="EndTrip" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Price"></label>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="PriceIncludes"></label>
+        <textarea asp-for="PriceIncludes" class="form-control"></textarea>
+        <span asp-validation-for="PriceIncludes" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="PriceDoesNotInclude"></label>
+        <textarea asp-for="PriceDoesNotInclude" class="form-control"></textarea>
+        <span asp-validation-for="PriceDoesNotInclude" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CategoryId"></label>
+        <select asp-for="CategoryId" class="form-control" asp-items="categoryItems"></select>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="TransportId"></label>
+        <select asp-for="TransportId" class="form-control" asp-items="transportItems" ></select>
+        <span asp-validation-for="TransportId" class="text-danger"></span>
+    </div>
+    <input type="submit" class="btn btn-primary" value="Create" />
+</form>

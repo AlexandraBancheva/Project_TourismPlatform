@@ -464,3 +464,5 @@ C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatfor
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\obj\Debug\net5.0\ref\TourismPlatform.Web.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\obj\Debug\net5.0\TourismPlatform.Web.pdb
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\obj\Debug\net5.0\TourismPlatform.Web.genruntimeconfig.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\bin\Debug\net5.0\Views\Offerts\Create.cshtml
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\obj\Debug\net5.0\Razor\Views\Offerts\Create.cshtml.g.cs

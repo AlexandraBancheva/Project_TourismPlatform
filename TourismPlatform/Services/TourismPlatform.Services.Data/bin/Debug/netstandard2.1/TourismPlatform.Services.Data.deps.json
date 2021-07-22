@@ -12,7 +12,8 @@
           "StyleCop.Analyzers": "1.2.0-beta.312",
           "TourismPlatform.Data.Common": "1.0.0",
           "TourismPlatform.Data.Models": "1.0.0",
-          "TourismPlatform.Services.Mapping": "1.0.0"
+          "TourismPlatform.Services.Mapping": "1.0.0",
+          "TourismPlatform.Web.ViewModels": "1.0.0"
         },
         "runtime": {
           "TourismPlatform.Services.Data.dll": {}
@@ -338,6 +339,15 @@
         "runtime": {
           "TourismPlatform.Services.Mapping.dll": {}
         }
+      },
+      "TourismPlatform.Web.ViewModels/1.0.0": {
+        "dependencies": {
+          "TourismPlatform.Data.Models": "1.0.0",
+          "TourismPlatform.Services.Mapping": "1.0.0"
+        },
+        "runtime": {
+          "TourismPlatform.Web.ViewModels.dll": {}
+        }
       }
     }
   },
@@ -568,6 +578,11 @@
       "sha512": ""
     },
     "TourismPlatform.Services.Mapping/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TourismPlatform.Web.ViewModels/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -21,6 +21,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Data\TourismPlatform.Data.Common\TourismPlatform.Data.Common.csproj" />
     <ProjectReference Include="..\..\Data\TourismPlatform.Data.Models\TourismPlatform.Data.Models.csproj" />
+    <ProjectReference Include="..\..\Web\TourismPlatform.Web.ViewModels\TourismPlatform.Web.ViewModels.csproj" />
     <ProjectReference Include="..\TourismPlatform.Services.Mapping\TourismPlatform.Services.Mapping.csproj" />
   </ItemGroup>
 

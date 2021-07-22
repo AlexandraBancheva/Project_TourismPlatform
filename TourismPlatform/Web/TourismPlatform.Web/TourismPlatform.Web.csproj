@@ -36,4 +36,10 @@
     <ProjectReference Include="..\TourismPlatform.Web.Infrastructure\TourismPlatform.Web.Infrastructure.csproj" />
     <ProjectReference Include="..\TourismPlatform.Web.ViewModels\TourismPlatform.Web.ViewModels.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Views\Offerts\Create.cshtml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
 </Project>
