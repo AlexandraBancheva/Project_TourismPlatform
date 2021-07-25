@@ -172,3 +172,7 @@ C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatf
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatform.Services.Data.Tests\obj\Debug\net5.0\ref\TourismPlatform.Services.Data.Tests.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatform.Services.Data.Tests\obj\Debug\net5.0\TourismPlatform.Services.Data.Tests.pdb
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatform.Services.Data.Tests\obj\Debug\net5.0\TourismPlatform.Services.Data.Tests.genruntimeconfig.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatform.Services.Data.Tests\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatform.Services.Data.Tests\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatform.Services.Data.Tests\bin\Debug\net5.0\TourismPlatform.Web.ViewModels.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatform.Services.Data.Tests\bin\Debug\net5.0\TourismPlatform.Web.ViewModels.pdb

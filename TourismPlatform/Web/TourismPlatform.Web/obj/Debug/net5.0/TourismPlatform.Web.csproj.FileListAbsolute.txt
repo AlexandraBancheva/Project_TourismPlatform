@@ -43,7 +43,6 @@ C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatfor
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.Connections.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.Extensions.dll
-C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\bin\Debug\net5.0\refs\Microsoft.AspNetCore.HttpOverrides.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\bin\Debug\net5.0\refs\Microsoft.AspNetCore.HttpsPolicy.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Identity.dll
@@ -123,7 +122,6 @@ C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatfor
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.dll
-C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\bin\Debug\net5.0\refs\Microsoft.Extensions.Primitives.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\bin\Debug\net5.0\refs\Microsoft.Extensions.WebEncoders.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\bin\Debug\net5.0\refs\Microsoft.JSInterop.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\bin\Debug\net5.0\refs\Microsoft.Net.Http.Headers.dll
@@ -181,7 +179,6 @@ C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatfor
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\bin\Debug\net5.0\refs\System.IO.FileSystem.Watcher.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\bin\Debug\net5.0\refs\System.IO.IsolatedStorage.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\bin\Debug\net5.0\refs\System.IO.MemoryMappedFiles.dll
-C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\bin\Debug\net5.0\refs\System.IO.Pipelines.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\bin\Debug\net5.0\refs\System.IO.Pipes.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\bin\Debug\net5.0\refs\System.IO.UnmanagedMemoryStream.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\bin\Debug\net5.0\refs\System.Linq.dll
@@ -466,3 +463,6 @@ C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatfor
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\obj\Debug\net5.0\TourismPlatform.Web.genruntimeconfig.cache
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\bin\Debug\net5.0\Views\Offerts\Create.cshtml
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\obj\Debug\net5.0\Razor\Views\Offerts\Create.cshtml.g.cs
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\bin\Debug\net5.0\System.IO.Pipelines.dll

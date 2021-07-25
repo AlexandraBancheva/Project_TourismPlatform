@@ -56,7 +56,6 @@ C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatf
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatform.Web.Tests\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.Connections.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatform.Web.Tests\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatform.Web.Tests\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.Extensions.dll
-C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatform.Web.Tests\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatform.Web.Tests\bin\Debug\net5.0\refs\Microsoft.AspNetCore.HttpOverrides.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatform.Web.Tests\bin\Debug\net5.0\refs\Microsoft.AspNetCore.HttpsPolicy.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatform.Web.Tests\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Identity.dll
@@ -136,7 +135,6 @@ C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatf
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatform.Web.Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatform.Web.Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatform.Web.Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.dll
-C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatform.Web.Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.Primitives.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatform.Web.Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.WebEncoders.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatform.Web.Tests\bin\Debug\net5.0\refs\Microsoft.JSInterop.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatform.Web.Tests\bin\Debug\net5.0\refs\Microsoft.Net.Http.Headers.dll
@@ -537,3 +535,6 @@ C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatf
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatform.Web.Tests\obj\Debug\net5.0\ref\TourismPlatform.Web.Tests.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatform.Web.Tests\obj\Debug\net5.0\TourismPlatform.Web.Tests.pdb
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatform.Web.Tests\obj\Debug\net5.0\TourismPlatform.Web.Tests.genruntimeconfig.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatform.Web.Tests\bin\Debug\net5.0\Views\Offerts\Create.cshtml
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatform.Web.Tests\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\TourismPlatform.Web.Tests\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll

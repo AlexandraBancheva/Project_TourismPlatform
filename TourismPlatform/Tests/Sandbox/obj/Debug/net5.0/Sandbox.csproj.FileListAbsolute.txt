@@ -74,3 +74,8 @@ C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\Sandbox\obj\
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\Sandbox\obj\Debug\net5.0\ref\Sandbox.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\Sandbox\obj\Debug\net5.0\Sandbox.pdb
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\Sandbox\obj\Debug\net5.0\Sandbox.genruntimeconfig.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\Sandbox\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\Sandbox\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\Sandbox\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\Sandbox\bin\Debug\net5.0\TourismPlatform.Web.ViewModels.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Tests\Sandbox\bin\Debug\net5.0\TourismPlatform.Web.ViewModels.pdb

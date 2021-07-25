@@ -4,6 +4,8 @@
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
 
+    using Microsoft.AspNetCore.Http;
+
     public class OffertFormModel
     {
         [Required]
@@ -45,6 +47,6 @@
 
         public IEnumerable<KeyValuePair<string, string>> TransportItems { get; set; }
 
-        //// Gallery???
+        public IEnumerable<IFormFile> Images { get; set; }
     }
 }
