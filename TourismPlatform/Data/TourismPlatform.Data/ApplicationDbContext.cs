@@ -27,8 +27,6 @@
 
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
 
-        public DbSet<Agency> Agencies { get; set; }
-
         public DbSet<Category> Categories { get; set; }
 
         public DbSet<Error> Errors { get; set; }
@@ -36,8 +34,6 @@
         public DbSet<Image> Images { get; set; }
 
         public DbSet<Offert> Offerts { get; set; }
-
-        public DbSet<ApplicationUserOffert> ApplicationUsersOfferts { get; set; }
 
         public DbSet<Transport> Transports { get; set; }
 

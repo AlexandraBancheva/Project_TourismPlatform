@@ -12,7 +12,36 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
+#line 1 "C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\Areas\Identity\Pages\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 2 "C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\Areas\Identity\Pages\_ViewImports.cshtml"
+using TourismPlatform.Web.Areas.Identity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\Areas\Identity\Pages\_ViewImports.cshtml"
+using TourismPlatform.Web.Areas.Identity.Pages;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\Areas\Identity\Pages\_ViewImports.cshtml"
+using TourismPlatform.Data.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a2d81d6366fb38a24c3404a5d7069d50275c02e9", @"/Areas/Identity/Pages/_ViewStart.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c0256607ec9f15414739a19ba4f4b9157002b262", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
     public class Areas_Identity_Pages__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

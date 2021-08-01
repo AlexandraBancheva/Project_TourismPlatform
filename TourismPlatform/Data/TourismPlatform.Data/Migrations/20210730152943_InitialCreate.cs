@@ -8,33 +8,6 @@ namespace TourismPlatform.Data.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Agencies",
-                columns: table => new
-                {
-                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    AgencyName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    LicenseNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    UserName = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    NormalizedUserName = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    NormalizedEmail = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    EmailConfirmed = table.Column<bool>(type: "bit", nullable: false),
-                    PasswordHash = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    SecurityStamp = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ConcurrencyStamp = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    PhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    PhoneNumberConfirmed = table.Column<bool>(type: "bit", nullable: false),
-                    TwoFactorEnabled = table.Column<bool>(type: "bit", nullable: false),
-                    LockoutEnd = table.Column<DateTimeOffset>(type: "datetimeoffset", nullable: true),
-                    LockoutEnabled = table.Column<bool>(type: "bit", nullable: false),
-                    AccessFailedCount = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Agencies", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "AspNetRoles",
                 columns: table => new
                 {
@@ -57,8 +30,8 @@ namespace TourismPlatform.Data.Migrations
                 columns: table => new
                 {
                     Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    FirstName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    LastName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    FullName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    IsAgent = table.Column<bool>(type: "bit", nullable: false),
                     CreatedOn = table.Column<DateTime>(type: "datetime2", nullable: false),
                     ModifiedOn = table.Column<DateTime>(type: "datetime2", nullable: true),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false),
@@ -252,8 +225,6 @@ namespace TourismPlatform.Data.Migrations
                     PricePerPerson = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     PriceIncludes = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     PriceDoesNotInclude = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    TripProgram = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    AgencyId = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     CreatedOn = table.Column<DateTime>(type: "datetime2", nullable: false),
                     ModifiedOn = table.Column<DateTime>(type: "datetime2", nullable: true),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false),
@@ -262,12 +233,6 @@ namespace TourismPlatform.Data.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Offerts", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Offerts_Agencies_AgencyId",
-                        column: x => x.AgencyId,
-                        principalTable: "Agencies",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_Offerts_Categories_CategoryId",
                         column: x => x.CategoryId,
@@ -301,32 +266,6 @@ namespace TourismPlatform.Data.Migrations
                     table.ForeignKey(
                         name: "FK_ApplicationUserOffert_Offerts_OffertsId",
                         column: x => x.OffertsId,
-                        principalTable: "Offerts",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "ApplicationUsersOfferts",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    ApplicationUserId = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    OffertId = table.Column<string>(type: "nvarchar(450)", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_ApplicationUsersOfferts", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_ApplicationUsersOfferts_AspNetUsers_ApplicationUserId",
-                        column: x => x.ApplicationUserId,
-                        principalTable: "AspNetUsers",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_ApplicationUsersOfferts_Offerts_OffertId",
-                        column: x => x.OffertId,
                         principalTable: "Offerts",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
@@ -386,16 +325,6 @@ namespace TourismPlatform.Data.Migrations
                 name: "IX_ApplicationUserOffert_UsersId",
                 table: "ApplicationUserOffert",
                 column: "UsersId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_ApplicationUsersOfferts_ApplicationUserId",
-                table: "ApplicationUsersOfferts",
-                column: "ApplicationUserId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_ApplicationUsersOfferts_OffertId",
-                table: "ApplicationUsersOfferts",
-                column: "OffertId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
@@ -472,11 +401,6 @@ namespace TourismPlatform.Data.Migrations
                 column: "OffertId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Offerts_AgencyId",
-                table: "Offerts",
-                column: "AgencyId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Offerts_CategoryId",
                 table: "Offerts",
                 column: "CategoryId");
@@ -506,9 +430,6 @@ namespace TourismPlatform.Data.Migrations
         {
             migrationBuilder.DropTable(
                 name: "ApplicationUserOffert");
-
-            migrationBuilder.DropTable(
-                name: "ApplicationUsersOfferts");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoleClaims");
@@ -542,9 +463,6 @@ namespace TourismPlatform.Data.Migrations
 
             migrationBuilder.DropTable(
                 name: "Offerts");
-
-            migrationBuilder.DropTable(
-                name: "Agencies");
 
             migrationBuilder.DropTable(
                 name: "Categories");

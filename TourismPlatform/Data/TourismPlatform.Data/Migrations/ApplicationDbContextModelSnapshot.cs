@@ -138,66 +138,6 @@ namespace TourismPlatform.Data.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("TourismPlatform.Data.Models.Agency", b =>
-                {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<int>("AccessFailedCount")
-                        .HasColumnType("int");
-
-                    b.Property<string>("AgencyName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ConcurrencyStamp")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Email")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("EmailConfirmed")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("LicenseNumber")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("LockoutEnabled")
-                        .HasColumnType("bit");
-
-                    b.Property<DateTimeOffset?>("LockoutEnd")
-                        .HasColumnType("datetimeoffset");
-
-                    b.Property<string>("NormalizedEmail")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("NormalizedUserName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PasswordHash")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PhoneNumber")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("PhoneNumberConfirmed")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("SecurityStamp")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("TwoFactorEnabled")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("UserName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Agencies");
-                });
-
             modelBuilder.Entity("TourismPlatform.Data.Models.ApplicationRole", b =>
                 {
                     b.Property<string>("Id")
@@ -264,16 +204,14 @@ namespace TourismPlatform.Data.Migrations
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
 
-                    b.Property<string>("FirstName")
-                        .IsRequired()
+                    b.Property<string>("FullName")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsAgent")
+                        .HasColumnType("bit");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
-
-                    b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
@@ -324,30 +262,6 @@ namespace TourismPlatform.Data.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers");
-                });
-
-            modelBuilder.Entity("TourismPlatform.Data.Models.ApplicationUserOffert", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("ApplicationUserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("OffertId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ApplicationUserId");
-
-                    b.HasIndex("OffertId");
-
-                    b.ToTable("ApplicationUsersOfferts");
                 });
 
             modelBuilder.Entity("TourismPlatform.Data.Models.Category", b =>
@@ -440,10 +354,6 @@ namespace TourismPlatform.Data.Migrations
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("AgencyId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
                     b.Property<string>("CategoryId")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
@@ -485,13 +395,7 @@ namespace TourismPlatform.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("TripProgram")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("AgencyId");
 
                     b.HasIndex("CategoryId");
 
@@ -627,25 +531,6 @@ namespace TourismPlatform.Data.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("TourismPlatform.Data.Models.ApplicationUserOffert", b =>
-                {
-                    b.HasOne("TourismPlatform.Data.Models.ApplicationUser", "ApplicationUser")
-                        .WithMany()
-                        .HasForeignKey("ApplicationUserId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("TourismPlatform.Data.Models.Offert", "Offert")
-                        .WithMany()
-                        .HasForeignKey("OffertId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("ApplicationUser");
-
-                    b.Navigation("Offert");
-                });
-
             modelBuilder.Entity("TourismPlatform.Data.Models.Error", b =>
                 {
                     b.HasOne("TourismPlatform.Data.Models.Offert", "Offert")
@@ -674,12 +559,6 @@ namespace TourismPlatform.Data.Migrations
 
             modelBuilder.Entity("TourismPlatform.Data.Models.Offert", b =>
                 {
-                    b.HasOne("TourismPlatform.Data.Models.Agency", "Agency")
-                        .WithMany("Offerts")
-                        .HasForeignKey("AgencyId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
                     b.HasOne("TourismPlatform.Data.Models.Category", "Category")
                         .WithMany("Offerts")
                         .HasForeignKey("CategoryId")
@@ -692,16 +571,9 @@ namespace TourismPlatform.Data.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.Navigation("Agency");
-
                     b.Navigation("Category");
 
                     b.Navigation("Transport");
-                });
-
-            modelBuilder.Entity("TourismPlatform.Data.Models.Agency", b =>
-                {
-                    b.Navigation("Offerts");
                 });
 
             modelBuilder.Entity("TourismPlatform.Data.Models.ApplicationUser", b =>

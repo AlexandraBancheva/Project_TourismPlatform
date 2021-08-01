@@ -6,3 +6,4 @@ C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Services\TourismPl
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Services\TourismPlatform.Services.Mapping\obj\Debug\netstandard2.1\TourismPlatform.Services.Mapping.csproj.CoreCompileInputs.cache
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Services\TourismPlatform.Services.Mapping\obj\Debug\netstandard2.1\TourismPlatform.Services.Mapping.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Services\TourismPlatform.Services.Mapping\obj\Debug\netstandard2.1\TourismPlatform.Services.Mapping.pdb
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Services\TourismPlatform.Services.Mapping\obj\Debug\netstandard2.1\TourismPlatform.Services.Mapping.csproj.AssemblyReference.cache

@@ -29,7 +29,7 @@
                 PricePerPerson = x.PricePerPerson,
                 PriceIncludes = x.PriceIncludes,
                 PriceDoesNotInclude = x.PriceDoesNotInclude,
-                Agency = x.Agency,
+                /// 
             });
 
             return this.View(viewModel);

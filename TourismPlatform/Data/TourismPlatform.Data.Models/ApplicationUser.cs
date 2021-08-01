@@ -16,13 +16,12 @@ namespace TourismPlatform.Data.Models
             this.Claims = new HashSet<IdentityUserClaim<string>>();
             this.Logins = new HashSet<IdentityUserLogin<string>>();
             this.Offerts = new HashSet<Offert>();
+          ///  this.CreatedOfferts = new HashSet<Offert>();
         }
 
-        [Required]
-        public string FirstName { get; set; }
+        public string FullName { get; set; }
 
-        [Required]
-        public string LastName { get; set; }
+        public bool IsAgent { get; set; }
 
         // Audit info
         public DateTime CreatedOn { get; set; }
@@ -36,6 +35,7 @@ namespace TourismPlatform.Data.Models
 
         public virtual ICollection<Offert> Offerts { get; set; }
 
+      ///  public virtual ICollection<Offert> CreatedOfferts { get; set; }
         public virtual ICollection<IdentityUserRole<string>> Roles { get; set; }
 
         public virtual ICollection<IdentityUserClaim<string>> Claims { get; set; }

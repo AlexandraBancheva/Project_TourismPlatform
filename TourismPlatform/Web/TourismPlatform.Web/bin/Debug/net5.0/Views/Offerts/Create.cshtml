@@ -1,9 +1,10 @@
 ﻿@model TourismPlatform.Web.ViewModels.Offerts.OffertFormModel
-@{ 
+@{
     this.ViewData["Title"] = "Add new offert";
     var categoryItems = this.Model.CategoryItems.Select(x => new SelectListItem(x.Value, x.Key));
     var transportItems = this.Model.TransportItems.Select(x => new SelectListItem(x.Value, x.Key));
 }
+
 
 <form method="post" class="col-md-6 offset-md-3" enctype="multipart/form-data">
     <h1>@this.ViewData["Title"]</h1>
@@ -45,7 +46,7 @@
     </div>
     <div class="form-group">
         <label asp-for="TransportId"></label>
-        <select asp-for="TransportId" class="form-control" asp-items="transportItems" ></select>
+        <select asp-for="TransportId" class="form-control" asp-items="transportItems"></select>
         <span asp-validation-for="TransportId" class="text-danger"></span>
     </div>
     <div class="form-group">

@@ -47,15 +47,14 @@
         [Required]
         public string PriceDoesNotInclude { get; set; }
 
-        [Required]
-        public string TripProgram { get; set; }
+        /// [Required]
+        /// public string TripProgram { get; set; }
 
-        [Required]
-        [ForeignKey(nameof(Agency))]
-        public string AgencyId { get; set; }
+        /// [Required]
+        /// [ForeignKey(nameof(Agency))]
+        /// public string AgencyId { get; set; }
 
-        public virtual Agency Agency { get; set; }
-
+        /// public virtual Agency Agency { get; set; }
         public virtual ICollection<Image> Gallery { get; set; }
 
         public virtual ICollection<ApplicationUser> Users { get; set; }

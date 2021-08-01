@@ -29,9 +29,18 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Offerts" asp-action="Create">Create</a>
-                        </li>
+                        @if (this.User.Identity.IsAuthenticated)
+                        {
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Offerts" asp-action="Create">Create</a>
+                                </li>
+                        }
+                        @if (this.User.IsInRole(GlobalConstants.AdministratorRoleName))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="Administration" asp-controller="Offerts" asp-action="Index">Offerts Admin</a>
+                            </li>
+                        }
                     </ul>
                 </div>
             </div>
