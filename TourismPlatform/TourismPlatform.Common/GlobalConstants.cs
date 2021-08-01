@@ -5,5 +5,7 @@
         public const string SystemName = "TourismPlatform";
 
         public const string AdministratorRoleName = "Administrator";
+
+        public const string TravelAgentRoleName = "TravelAgent";
     }
 }

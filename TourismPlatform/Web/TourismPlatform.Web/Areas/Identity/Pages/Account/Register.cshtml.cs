@@ -16,6 +16,7 @@
     using Microsoft.AspNetCore.Mvc.RazorPages;
     using Microsoft.AspNetCore.WebUtilities;
     using Microsoft.Extensions.Logging;
+    using TourismPlatform.Common;
     using TourismPlatform.Data.Models;
 
     [AllowAnonymous]
@@ -99,6 +100,11 @@
                         await this.emailSender.SendEmailAsync(this.Input.Email, "Confirm your email",
                             $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
 
+                        if (user.IsAgent == true)
+                        {
+                        await this.userManager.AddToRoleAsync(user, GlobalConstants.TravelAgentRoleName);
+                        }
+
                         if (this.userManager.Options.SignIn.RequireConfirmedAccount)
                         {
                             return this.RedirectToPage("RegisterConfirmation", new { email = this.Input.Email, returnUrl = returnUrl });
@@ -109,6 +115,8 @@
                             return this.LocalRedirect(returnUrl);
                         }
                     }
+
+
 
                     foreach (var error in result.Errors)
                     {
