@@ -59,5 +59,29 @@
             await this.offertRepository.AddAsync(offert);
             await this.offertRepository.SaveChangesAsync();
         }
+
+        public IEnumerable<OffertListViewModel> GetAll(int page, int itemsPerPage = 12)
+        {
+            var offerts = this.offertRepository.AllAsNoTracking().OrderByDescending(x => x.Id).Skip((page - 1) * itemsPerPage).Take(itemsPerPage)
+                .Select(x => new OffertListViewModel
+                { 
+                    Id = x.Id,
+                    FullName = x.FullName,
+                    TransportId = x.TransportId,
+                    TransportName = x.Transport.Name,
+                    StartDate = x.StartDate.Date,
+                    EndDate = x.EndDate.Date,
+                    PricePerPerson = x.PricePerPerson,
+                    ImageUrl = "/images/offerts/" + x.Gallery.FirstOrDefault().Id + "." + x.Gallery.FirstOrDefault().Extension,
+                })
+                .ToList();
+
+            return offerts;
+        }
+
+        public int GetCount()
+        {
+           return this.offertRepository.All().Count();
+        }
     }
 }

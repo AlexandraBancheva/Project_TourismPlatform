@@ -24,7 +24,7 @@
             this.environment = environment;
         }
 
-       //// [Authorize]
+        [Authorize]
         public IActionResult Create()
         {
             var viewModel = new OffertFormModel();
@@ -34,7 +34,7 @@
         }
 
         [HttpPost]
-      //// [Authorize]
+        [Authorize]
         public async Task<IActionResult> Create(OffertFormModel model)
         {
             if (!this.ModelState.IsValid)
@@ -60,6 +60,19 @@
 
             /// Redirect to all offerts
             return this.Redirect("/");
+        }
+
+        public IActionResult All(int id = 1)
+        {
+            const int ItemsPerPage = 12;
+            var viewModel = new OffertsInListModel
+            {
+                ItemsPerPage = ItemsPerPage,
+                PageNumber = id,
+                OffertsCount = this.offertsService.GetCount(),
+                Offerts = this.offertsService.GetAll(id, ItemsPerPage),
+            };
+            return this.View(viewModel);
         }
     }
 }

@@ -19,20 +19,19 @@
 
         public IActionResult Index()
         {
-            var viewModel = this.offertRepository.All().Select(x => new Offert
-            {
-                FullName = x.FullName,
-                StartDate = x.StartDate.Date,
-                EndDate = x.EndDate.Date,
-                Transport = x.Transport,
-                Category = x.Category,
-                PricePerPerson = x.PricePerPerson,
-                PriceIncludes = x.PriceIncludes,
-                PriceDoesNotInclude = x.PriceDoesNotInclude,
-                /// 
-            });
+            //var viewModel = this.offertRepository.All().Select(x => new Offert
+            //{
+            //    FullName = x.FullName,
+            //    StartDate = x.StartDate.Date,
+            //    EndDate = x.EndDate.Date,
+            //    Transport = x.Transport,
+            //    Category = x.Category,
+            //    PricePerPerson = x.PricePerPerson,
+            //    PriceIncludes = x.PriceIncludes,
+            //    PriceDoesNotInclude = x.PriceDoesNotInclude,
+            //});
 
-            return this.View(viewModel);
+            return this.View();
         }
 
         public IActionResult Privacy()
