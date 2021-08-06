@@ -24,13 +24,13 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Offerts" asp-action="All">All Offerts</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                         @if (this.User.Identity.IsAuthenticated)
                         {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Offerts" asp-action="All">All Offerts</a>
+                            </li>
                             if (this.User.IsInRole(GlobalConstants.TravelAgentRoleName))
                             {
                                 <li class="nav-item">

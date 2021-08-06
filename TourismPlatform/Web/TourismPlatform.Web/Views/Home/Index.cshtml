@@ -1,4 +1,5 @@
 ﻿@using TourismPlatform.Common
+@model TourismPlatform.Web.ViewModels.Home.HomeOffertsInListViewModel
 @{
     this.ViewData["Title"] = "Home Page";
 }
@@ -14,17 +15,15 @@
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="..." class="d-block w-100" alt="...">
+    @foreach (var offert in this.Model.HomeOfferts)
+     {
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="@offert.ImageUrl" class="d-block w-100" alt="...">
+                <h3>@offert.FullName</h3>
+            </div>
         </div>
-        <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-        </div>
-    </div>
+     }
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>

@@ -9,6 +9,7 @@
 
     using TourismPlatform.Data.Common.Repositories;
     using TourismPlatform.Data.Models;
+    using TourismPlatform.Web.ViewModels.Home;
     using TourismPlatform.Web.ViewModels.Offerts;
 
     public class OffertsService : IOffertsService
@@ -64,7 +65,7 @@
         {
             var offerts = this.offertRepository.AllAsNoTracking().OrderByDescending(x => x.Id).Skip((page - 1) * itemsPerPage).Take(itemsPerPage)
                 .Select(x => new OffertListViewModel
-                { 
+                {
                     Id = x.Id,
                     FullName = x.FullName,
                     TransportId = x.TransportId,
@@ -82,6 +83,22 @@
         public int GetCount()
         {
            return this.offertRepository.All().Count();
+        }
+
+        public IEnumerable<HomeOffertInListViewModel> GetRandom(int count)
+        {
+            var randomOfferts = this.offertRepository.AllAsNoTracking()
+                .OrderByDescending(x => x.Id)
+                .Take(count)
+                .Select(x => new HomeOffertInListViewModel
+                {
+                    Id = x.Id,
+                    FullName = x.FullName,
+                    ImageUrl = "/images/offerts/" + x.Gallery.FirstOrDefault().Id + "." + x.Gallery.FirstOrDefault().Extension,
+                })
+                .ToList();
+
+            return randomOfferts;
         }
     }
 }

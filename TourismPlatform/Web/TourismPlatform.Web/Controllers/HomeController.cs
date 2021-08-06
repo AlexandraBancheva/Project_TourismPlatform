@@ -6,32 +6,29 @@
     using Microsoft.AspNetCore.Mvc;
     using TourismPlatform.Data.Common.Repositories;
     using TourismPlatform.Data.Models;
+    using TourismPlatform.Services.Data;
     using TourismPlatform.Web.ViewModels;
+    using TourismPlatform.Web.ViewModels.Home;
 
     public class HomeController : Controller
     {
         private readonly IDeletableEntityRepository<Offert> offertRepository;
+        private readonly IOffertsService offertsService;
 
-        public HomeController(IDeletableEntityRepository<Offert> offertRepository)
+        public HomeController(IDeletableEntityRepository<Offert> offertRepository, IOffertsService offertsService)
         {
             this.offertRepository = offertRepository;
+            this.offertsService = offertsService;
         }
 
         public IActionResult Index()
         {
-            //var viewModel = this.offertRepository.All().Select(x => new Offert
-            //{
-            //    FullName = x.FullName,
-            //    StartDate = x.StartDate.Date,
-            //    EndDate = x.EndDate.Date,
-            //    Transport = x.Transport,
-            //    Category = x.Category,
-            //    PricePerPerson = x.PricePerPerson,
-            //    PriceIncludes = x.PriceIncludes,
-            //    PriceDoesNotInclude = x.PriceDoesNotInclude,
-            //});
+            var viewModel = new HomeOffertsInListViewModel
+            {
+                HomeOfferts = this.offertsService.GetRandom(3),
+            };
 
-            return this.View();
+            return this.View(viewModel);
         }
 
         public IActionResult Privacy()
