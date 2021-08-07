@@ -4,6 +4,8 @@ namespace TourismPlatform.Data.Models
     using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
+    using System.ComponentModel.DataAnnotations.Schema;
+
     using Microsoft.AspNetCore.Identity;
     using TourismPlatform.Data.Common.Models;
 
@@ -16,7 +18,7 @@ namespace TourismPlatform.Data.Models
             this.Claims = new HashSet<IdentityUserClaim<string>>();
             this.Logins = new HashSet<IdentityUserLogin<string>>();
             this.Offerts = new HashSet<Offert>();
-          ///  this.CreatedOfferts = new HashSet<Offert>();
+            this.CreatedOfferts = new HashSet<Offert>();
         }
 
         public string FullName { get; set; }
@@ -35,7 +37,9 @@ namespace TourismPlatform.Data.Models
 
         public virtual ICollection<Offert> Offerts { get; set; }
 
-      ///  public virtual ICollection<Offert> CreatedOfferts { get; set; }
+        [InverseProperty("CreatedApplicationUser")]
+        public virtual ICollection<Offert> CreatedOfferts { get; set; }
+
         public virtual ICollection<IdentityUserRole<string>> Roles { get; set; }
 
         public virtual ICollection<IdentityUserClaim<string>> Claims { get; set; }

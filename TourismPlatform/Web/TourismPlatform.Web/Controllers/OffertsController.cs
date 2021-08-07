@@ -1,11 +1,15 @@
 ﻿namespace TourismPlatform.Web.Controllers
 {
     using System;
+    using System.Security.Claims;
     using System.Threading.Tasks;
 
     using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Hosting;
+    using Microsoft.AspNetCore.Identity;
     using Microsoft.AspNetCore.Mvc;
+    using TourismPlatform.Common;
+    using TourismPlatform.Data.Models;
     using TourismPlatform.Services.Data;
     using TourismPlatform.Web.ViewModels.Offerts;
 
@@ -15,16 +19,18 @@
         private readonly ITransportsService transportsService;
         private readonly IOffertsService offertsService;
         private readonly IWebHostEnvironment environment;
+        private readonly UserManager<ApplicationUser> userManager;
 
-        public OffertsController(ICategoriesService categoriesService, ITransportsService transportsService, IOffertsService offertsService, IWebHostEnvironment environment)
+        public OffertsController(ICategoriesService categoriesService, ITransportsService transportsService, IOffertsService offertsService, IWebHostEnvironment environment, UserManager<ApplicationUser> userManager)
         {
             this.categoriesService = categoriesService;
             this.transportsService = transportsService;
             this.offertsService = offertsService;
             this.environment = environment;
+            this.userManager = userManager;
         }
 
-        [Authorize]
+        [Authorize(Roles = GlobalConstants.TravelAgentRoleName)]
         public IActionResult Create()
         {
             var viewModel = new OffertFormModel();
@@ -34,7 +40,7 @@
         }
 
         [HttpPost]
-        [Authorize]
+        [Authorize(Roles = GlobalConstants.TravelAgentRoleName)]
         public async Task<IActionResult> Create(OffertFormModel model)
         {
             if (!this.ModelState.IsValid)
@@ -50,7 +56,6 @@
             }
             catch (Exception ex)
             {
-
                 this.ModelState.AddModelError(string.Empty, ex.Message);
                 model.CategoryItems = this.categoriesService.GetAllAsKeyValuePairs();
                 model.TransportItems = this.transportsService.GetAllAsKeyValuePairs();
@@ -73,6 +78,11 @@
                 Offerts = this.offertsService.GetAll(id, ItemsPerPage),
             };
             return this.View(viewModel);
+        }
+
+        public IActionResult MyOfferts()
+        {
+            return this.View();
         }
     }
 }

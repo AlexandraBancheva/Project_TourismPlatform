@@ -22,7 +22,6 @@
             this.offertRepository = offertRepository;
         }
 
-        // I should add agencyId when I make a users/ agents!!! => error because of AgentId is null
         public async Task CreateAsync(OffertFormModel model, string imagePath)
         {
             var offert = new Offert
@@ -84,6 +83,11 @@
         {
            return this.offertRepository.All().Count();
         }
+
+        //public IEnumerable<MyOffertListViewModel> GetMyAll(string userId, int page, int itemsPerPage = 12)
+        //{
+        //    var myAllOfferts = this.offertRepository.AllAsNoTracking().Where()
+        //}
 
         public IEnumerable<HomeOffertInListViewModel> GetRandom(int count)
         {

@@ -4,6 +4,7 @@
     using System.Collections.Generic;
     using System.Text;
     using System.Threading.Tasks;
+
     using TourismPlatform.Web.ViewModels.Home;
     using TourismPlatform.Web.ViewModels.Offerts;
 
@@ -16,5 +17,7 @@
         int GetCount();
 
         IEnumerable<HomeOffertInListViewModel> GetRandom(int count);
+
+      ///  IEnumerable<MyOffertListViewModel> GetMyAll(string userId, int page, int itemsPerPage = 12);
     }
 }
