@@ -10,7 +10,7 @@
 
     public interface IOffertsService
     {
-        Task CreateAsync(OffertFormModel model, string imagePath);
+        Task CreateAsync(OffertFormModel model, string userId, string imagePath);
 
         IEnumerable<OffertListViewModel> GetAll(int page, int itemsPerPage = 12);
 
@@ -18,6 +18,6 @@
 
         IEnumerable<HomeOffertInListViewModel> GetRandom(int count);
 
-      ///  IEnumerable<MyOffertListViewModel> GetMyAll(string userId, int page, int itemsPerPage = 12);
+        IEnumerable<MyAllOffertViewModel> GetMyAll(string userId, int page, int itemsPerPage = 12);
     }
 }

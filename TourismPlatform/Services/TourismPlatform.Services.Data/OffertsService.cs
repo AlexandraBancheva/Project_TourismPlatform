@@ -22,7 +22,7 @@
             this.offertRepository = offertRepository;
         }
 
-        public async Task CreateAsync(OffertFormModel model, string imagePath)
+        public async Task CreateAsync(OffertFormModel model, string userId, string imagePath)
         {
             var offert = new Offert
             {
@@ -34,6 +34,7 @@
                 PricePerPerson = model.Price,
                 PriceIncludes = model.PriceIncludes,
                 PriceDoesNotInclude = model.PriceDoesNotInclude,
+                CreatedApplicationUserId = userId,
             };
 
             Directory.CreateDirectory($"{imagePath}/offerts/");
@@ -84,10 +85,21 @@
            return this.offertRepository.All().Count();
         }
 
-        //public IEnumerable<MyOffertListViewModel> GetMyAll(string userId, int page, int itemsPerPage = 12)
-        //{
-        //    var myAllOfferts = this.offertRepository.AllAsNoTracking().Where()
-        //}
+        public IEnumerable<MyAllOffertViewModel> GetMyAll(string userId, int page, int itemsPerPage = 12)
+        {
+            var myAllOfferts = this.offertRepository.All()
+                .Where(x => x.CreatedApplicationUserId == userId)
+                .OrderByDescending(x => x.Id)
+                .Select(x => new MyAllOffertViewModel
+                {
+                    Id = x.Id,
+                    FullName = x.FullName,
+                    ImageUrl = "/images/offerts/" + x.Gallery.FirstOrDefault().Id + "." + x.Gallery.FirstOrDefault().Extension,
+                })
+                .ToList();
+
+            return myAllOfferts;
+        }
 
         public IEnumerable<HomeOffertInListViewModel> GetRandom(int count)
         {

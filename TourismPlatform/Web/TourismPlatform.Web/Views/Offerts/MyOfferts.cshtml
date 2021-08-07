@@ -1,0 +1,50 @@
+﻿@model TourismPlatform.Web.ViewModels.Offerts.MyAllOffertsViewModel
+@{
+    this.ViewData["Title"] = "My offerts";
+}
+
+<h1>@this.ViewData["Title"]</h1>
+<hr />
+<div class="row">
+    @foreach (var offert in this.Model.MyAllOfferts)
+    {
+        <div class="media col-md-3">
+            <img src="@offert.ImageUrl" width="100" class="mr-3" />
+            <div class="media-body">
+                <h5 class="mt-0">@offert.FullName</h5>
+            </div>
+        </div>
+    }
+</div>
+<hr />
+
+<nav aria-label="...">
+    <ul class="pagination justify-content-center">
+        <li class="page-item @if (!Model.HasPreviousPage) { <text>disabled</text> }">
+            <a class="page-link" asp-action="All" asp-route-id="@Model.PreviousPageNumber">Previous</a>
+        </li>
+        @for (int i = Model.PageNumber - 3; i < Model.PageNumber; i++)
+        {
+            if (i > 0)
+            {
+                <li class="page-item"><a class="page-link" asp-action="Al" asp-route-id="@i"></a></li>
+            }
+        }
+        <li class="page-item active" aria-current="page">
+            <span class="page-link">
+                @Model.PageNumber
+                <span class="sr-only">(current)</span>
+            </span>
+        </li>
+        @for (int i = Model.PageNumber + 1; i < Model.PageNumber + 3; i++)
+        {
+            if (i <= Model.PagesCount)
+            {
+                <li class="page-item"><a class="page-link" asp-action="Al" asp-route-id="@i"></a></li>
+            }
+        }
+        <li class="page-item @if (!Model.HasNextPage) { <text>disabled</text> }">
+            <a class="page-link" asp-action="All" asp-route-id="@Model.NextPageNumber">Next</a>
+        </li>
+    </ul>
+</nav>

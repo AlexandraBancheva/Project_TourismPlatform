@@ -50,9 +50,10 @@
                 return this.View();
             }
 
+            var user = await this.userManager.GetUserAsync(this.User);
             try
             {
-                await this.offertsService.CreateAsync(model, $"{this.environment.WebRootPath}/images");
+                await this.offertsService.CreateAsync(model, user.Id, $"{this.environment.WebRootPath}/images");
             }
             catch (Exception ex)
             {
@@ -80,9 +81,16 @@
             return this.View(viewModel);
         }
 
-        public IActionResult MyOfferts()
+        [Authorize(Roles = GlobalConstants.TravelAgentRoleName)]
+        public async Task<IActionResult> MyOfferts(int id = 1)
         {
-            return this.View();
+            const int ItemsPerPage = 12;
+            var user = await this.userManager.GetUserAsync(this.User);
+            var viewModel = new MyAllOffertsViewModel
+            {
+                MyAllOfferts = this.offertsService.GetMyAll(user.Id, id, ItemsPerPage),
+            };
+            return this.View(viewModel);
         }
     }
 }
