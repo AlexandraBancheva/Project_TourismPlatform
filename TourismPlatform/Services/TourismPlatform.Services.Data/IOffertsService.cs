@@ -19,5 +19,11 @@
         IEnumerable<HomeOffertInListViewModel> GetRandom(int count);
 
         IEnumerable<MyAllOffertViewModel> GetMyAll(string userId, int page, int itemsPerPage = 12);
+
+        Task DeleteAsync(string id);
+
+        Task UpdateAsync(string id, EditOffertFormModel model);
+
+        T GetById<T>(string id);
     }
 }

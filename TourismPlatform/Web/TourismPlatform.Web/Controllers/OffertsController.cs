@@ -88,9 +88,50 @@
             var user = await this.userManager.GetUserAsync(this.User);
             var viewModel = new MyAllOffertsViewModel
             {
+                ItemsPerPage = ItemsPerPage,
+                PageNumber = id,
+                OffertsCount = this.offertsService.GetCount(),
                 MyAllOfferts = this.offertsService.GetMyAll(user.Id, id, ItemsPerPage),
             };
             return this.View(viewModel);
+        }
+
+        [HttpPost]
+        [Authorize(Roles = GlobalConstants.AdministratorRoleName)]
+        public async Task<IActionResult> Delete(string id)
+        {
+            await this.offertsService.DeleteAsync(id);
+            return this.RedirectToAction(nameof(this.All));
+        }
+
+        [Authorize(Roles = GlobalConstants.AdministratorRoleName)]
+        public IActionResult Edit(string id)
+        {
+            var inputModel = this.offertsService.GetById<EditOffertFormModel>(id);
+            inputModel.CategoryItems = this.categoriesService.GetAllAsKeyValuePairs();
+            inputModel.TransportItems = this.transportsService.GetAllAsKeyValuePairs();
+            return this.View(inputModel);
+        }
+
+        [HttpPost]
+        [Authorize(Roles = GlobalConstants.AdministratorRoleName)]
+        public async Task<IActionResult> Edit(string id, EditOffertFormModel model)
+        {
+            if (!this.ModelState.IsValid)
+            {
+                model.CategoryItems = this.categoriesService.GetAllAsKeyValuePairs();
+                model.TransportItems = this.transportsService.GetAllAsKeyValuePairs();
+                return this.View(model);
+            }
+
+            await this.offertsService.UpdateAsync(id, model);
+            return this.RedirectToAction(nameof(this.ById), new { id });
+        }
+
+        public IActionResult ById(string id)
+        {
+            var offert = this.offertsService.GetById<SingleOffertViewModel>(id);
+            return this.View(offert);
         }
     }
 }

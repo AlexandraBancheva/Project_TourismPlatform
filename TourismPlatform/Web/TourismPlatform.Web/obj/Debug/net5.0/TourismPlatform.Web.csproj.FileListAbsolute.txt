@@ -480,3 +480,4 @@ C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatfor
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\obj\Debug\net5.0\Razor\Views\Offerts\All.cshtml.g.cs
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\obj\Debug\net5.0\Razor\Views\Offerts\MyOfferts.cshtml.g.cs
+C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Web\TourismPlatform.Web\obj\Debug\net5.0\Razor\Views\Offerts\EditOffert.cshtml.g.cs

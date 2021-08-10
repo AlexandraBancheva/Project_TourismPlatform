@@ -9,6 +9,7 @@
 
     using TourismPlatform.Data.Common.Repositories;
     using TourismPlatform.Data.Models;
+    using TourismPlatform.Services.Mapping;
     using TourismPlatform.Web.ViewModels.Home;
     using TourismPlatform.Web.ViewModels.Offerts;
 
@@ -61,6 +62,13 @@
             await this.offertRepository.SaveChangesAsync();
         }
 
+        public async Task DeleteAsync(string id)
+        {
+            var offert = this.offertRepository.All().FirstOrDefault(x => x.Id == id);
+            this.offertRepository.Delete(offert);
+            await this.offertRepository.SaveChangesAsync();
+        }
+
         public IEnumerable<OffertListViewModel> GetAll(int page, int itemsPerPage = 12)
         {
             var offerts = this.offertRepository.AllAsNoTracking().OrderByDescending(x => x.Id).Skip((page - 1) * itemsPerPage).Take(itemsPerPage)
@@ -80,6 +88,13 @@
             return offerts;
         }
 
+        public T GetById<T>(string id)
+        {
+            var offert = this.offertRepository.AllAsNoTracking()
+                .Where(x => x.Id == id).To<T>().FirstOrDefault();
+            return offert;
+        }
+
         public int GetCount()
         {
            return this.offertRepository.All().Count();
@@ -87,9 +102,11 @@
 
         public IEnumerable<MyAllOffertViewModel> GetMyAll(string userId, int page, int itemsPerPage = 12)
         {
-            var myAllOfferts = this.offertRepository.All()
+            var all = this.offertRepository.All()
                 .Where(x => x.CreatedApplicationUserId == userId)
                 .OrderByDescending(x => x.Id)
+                .Skip((page - 1) * itemsPerPage)
+                .Take(itemsPerPage)
                 .Select(x => new MyAllOffertViewModel
                 {
                     Id = x.Id,
@@ -98,7 +115,7 @@
                 })
                 .ToList();
 
-            return myAllOfferts;
+            return all;
         }
 
         public IEnumerable<HomeOffertInListViewModel> GetRandom(int count)
@@ -115,6 +132,21 @@
                 .ToList();
 
             return randomOfferts;
+        }
+
+        public async Task UpdateAsync(string id, EditOffertFormModel model)
+        {
+            var offert = this.offertRepository.All().FirstOrDefault(x => x.Id == id);
+            offert.FullName = model.Name;
+            offert.TransportId = model.TransportId;
+            offert.CategoryId = model.CategoryId;
+            offert.StartDate = model.StartTrip;
+            offert.EndDate = model.EndTrip;
+            offert.PricePerPerson = model.Price;
+            offert.PriceIncludes = model.PriceIncludes;
+            offert.PriceDoesNotInclude = model.PriceDoesNotInclude;
+
+            await this.offertRepository.SaveChangesAsync();
         }
     }
 }
