@@ -1,27 +1,39 @@
 ﻿namespace TourismPlatform.Web.ViewModels.Offerts
 {
     using System;
-    using System.Collections.Generic;
-    using System.Text;
+    using System.Linq;
 
-    public class SingleOffertViewModel
+    using AutoMapper;
+    using TourismPlatform.Data.Models;
+    using TourismPlatform.Services.Mapping;
+
+    public class SingleOffertViewModel : IMapFrom<Offert>, IHaveCustomMappings
     {
         public string Id { get; set; }
 
-        public string Name { get; set; }
+        public string FullName { get; set; }
 
-        public DateTime StartTrip { get; set; }
+        public DateTime StartDate { get; set; }
 
-        public DateTime EndTrip { get; set; }
+        public DateTime EndDate { get; set; }
 
-        public string TransportId { get; set; }
+        public string TransportName { get; set; }
 
-        public string CategoryId { get; set; }
+        public string CategoryName { get; set; }
 
-        public decimal Price { get; set; }
+        public decimal PricePerPerson { get; set; }
 
         public string PriceIncludes { get; set; }
 
         public string PriceDoesNotInclude { get; set; }
+
+        public string ImageUrl { get; set; }
+
+        public void CreateMappings(IProfileExpression configuration)
+        {
+            configuration.CreateMap<Offert, SingleOffertViewModel>()
+                .ForMember(x => x.ImageUrl, opt =>
+                opt.MapFrom(x => "/images/offerts/" + x.Gallery.FirstOrDefault().Id + "." + x.Gallery.FirstOrDefault().Extension));
+        }
     }
 }

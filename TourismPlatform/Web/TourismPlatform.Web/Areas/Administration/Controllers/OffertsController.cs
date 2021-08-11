@@ -72,6 +72,7 @@
                 await this.dataRepository.SaveChangesAsync();
                 return this.RedirectToAction(nameof(this.Index));
             }
+
             this.ViewData["CategoryId"] = new SelectList(this.dbContext.Categories, "Id", "Id", offert.CategoryId);
             this.ViewData["TransportId"] = new SelectList(this.dbContext.Transports, "Id", "Id", offert.TransportId);
             return this.View(offert);

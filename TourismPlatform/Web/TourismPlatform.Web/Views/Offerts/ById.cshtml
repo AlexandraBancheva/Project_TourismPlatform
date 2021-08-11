@@ -1,0 +1,88 @@
+﻿@using TourismPlatform.Common
+@model TourismPlatform.Web.ViewModels.Offerts.SingleOffertViewModel
+@{
+    this.ViewData["Title"] = Model.FullName;
+}
+
+<div>
+    <h2>@this.Model.FullName</h2>
+</div>
+@if (this.User.IsInRole(GlobalConstants.AdministratorRoleName))
+{
+    <li class="single-meta">
+        <a asp-controller="Offerts" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-secondary">Edit</a>
+    </li>
+    <li class="single-meta">
+        <form method="post" asp-action="Delete" id="deleteForm" asp-route-id="@Model.Id">
+        </form>
+        <button class="btn btn-danger" data-toggle="modal" data-target="#deleteModal">Delete</button>
+    </li>
+}
+<div class="item-figure">
+    <img class="img-fluid w-100" src="@Model.ImageUrl" alt="@Model.FullName" />
+</div>
+<div class="ctg-name">
+    <h5>Категория: @Model.CategoryName</h5>
+</div>
+<div class="ctg-name">
+    <h5>Транспорт: @Model.TransportName</h5>
+</div>
+<div class="ctg-name">
+    <h5>Цена на човек: @Model.PricePerPerson лева</h5>
+</div>
+<hr />
+<div class="making-elements-wrap">
+    <div class="row">
+        <div class="col-md-6">
+            <h5><u><b>Цената включва:</b></u></h5>
+            <p class="item-description">
+                @Model.PriceIncludes
+            </p>
+        </div>
+        <div class="col-md-6">
+            <h5><u><b>Цената не включва:</b></u></h5>
+            <p class="item-description">
+                @Model.PriceDoesNotInclude
+            </p>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $("li[data-vote]").each(function (el) {
+            $(this).click(function () {
+                var value = $(this).attr("data-vote");
+                var recipeId = @Model.Id;
+                var antiForgeryToken = $('#antiForgeryForm input[name=__RequestVerificationToken]').val();
+                var data = { recipeId: recipeId, value: value };
+                $.ajax({
+                    type: "POST",
+                    url: "/api/Votes",
+                    data: JSON.stringify(data),
+                    headers: {
+                        'X-CSRF-TOKEN': antiForgeryToken
+                    },
+                    success: function (data) {
+                        $('#averageVoteValue').html(data.averageVote.toFixed(1));
+                    },
+                    contentType: 'application/json',
+                });
+            })
+        });
+    </script>
+}
+
+<div class="modal" tabindex="-1" role="dialog" id="deleteModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <p>Do you want to delete "@Model.FullName"?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" onclick="deleteForm.submit()">Yes</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+            </div>
+        </div>
+    </div>
+</div>

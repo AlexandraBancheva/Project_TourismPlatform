@@ -137,12 +137,12 @@
         public async Task UpdateAsync(string id, EditOffertFormModel model)
         {
             var offert = this.offertRepository.All().FirstOrDefault(x => x.Id == id);
-            offert.FullName = model.Name;
+            offert.FullName = model.FullName;
             offert.TransportId = model.TransportId;
             offert.CategoryId = model.CategoryId;
-            offert.StartDate = model.StartTrip;
-            offert.EndDate = model.EndTrip;
-            offert.PricePerPerson = model.Price;
+            offert.StartDate = model.StartDate;
+            offert.EndDate = model.EndDate;
+            offert.PricePerPerson = model.PricePerPerson;
             offert.PriceIncludes = model.PriceIncludes;
             offert.PriceDoesNotInclude = model.PriceDoesNotInclude;
 

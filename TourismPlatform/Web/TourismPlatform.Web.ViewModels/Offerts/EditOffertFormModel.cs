@@ -6,45 +6,40 @@
     using System.Text;
 
     using Microsoft.AspNetCore.Http;
+    using TourismPlatform.Data.Models;
+    using TourismPlatform.Services.Mapping;
 
-    public class EditOffertFormModel
+    public class EditOffertFormModel : IMapFrom<Offert>
     {
 
         public string Id { get; set; }
 
         [Required]
         [MinLength(5)]
-        [Display(Name = "Full name of program")]
-        public string Name { get; set; }
+        public string FullName { get; set; }
 
         [Required]
-        [Display(Name = "Start trip")]
-        public DateTime StartTrip { get; set; }
+        public DateTime StartDate { get; set; }
 
         [Required]
-        [Display(Name = "End trip")]
-        public DateTime EndTrip { get; set; }
+        public DateTime EndDate { get; set; }
 
         [Required]
-        [Display(Name = "Transport")]
         public string TransportId { get; set; }
 
         [Required]
-        [Display(Name = "Category")]
         public string CategoryId { get; set; }
 
         [Required]
         [Range(0, double.PositiveInfinity)]
-        public decimal Price { get; set; }
+        public decimal PricePerPerson { get; set; }
 
         [Required]
         [MinLength(30)]
-        [Display(Name = "Price includes")]
         public string PriceIncludes { get; set; }
 
         [Required]
         [MinLength(30)]
-        [Display(Name = "Price does not include")]
         public string PriceDoesNotInclude { get; set; }
 
         public IEnumerable<KeyValuePair<string, string>> CategoryItems { get; set; }

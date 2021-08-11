@@ -1,6 +1,6 @@
 ﻿@model TourismPlatform.Web.ViewModels.Offerts.EditOffertFormModel
 @{ 
-    ViewData["Title"] = "Edit offer t";
+    ViewData["Title"] = "Edit offert";
     var categoryItems = this.Model.CategoryItems.Select(x => new SelectListItem(x.Value, x.Key));
     var transportItems = this.Model.TransportItems.Select(x => new SelectListItem(x.Value, x.Key));
 }
@@ -9,24 +9,24 @@
 
 <form method="post" id="editForm">
     <div class="form-group">
-        <label asp-for="Name"></label>
-        <input asp-for="Name" class="form-control" />
-        <span asp-validation-for="Name" class="text-danger"></span>
+        <label asp-for="FullName"></label>
+        <input asp-for="FullName" class="form-control" />
+        <span asp-validation-for="FullName" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="StartTrip"></label>
-        <input asp-for="StartTrip" class="form-control" type="date" />
-        <span asp-validation-for="StartTrip" class="text-danger"></span>
+        <label asp-for="StartDate"></label>
+        <input asp-for="StartDate" class="form-control" type="date" />
+        <span asp-validation-for="StartDate" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="EndTrip"></label>
-        <input asp-for="EndTrip" class="form-control" type="date" />
-        <span asp-validation-for="EndTrip" class="text-danger"></span>
+        <label asp-for="EndDate"></label>
+        <input asp-for="EndDate" class="form-control" type="date" />
+        <span asp-validation-for="EndDate" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Price"></label>
-        <input asp-for="Price" class="form-control" />
-        <span asp-validation-for="Price" class="text-danger"></span>
+        <label asp-for="PricePerPerson"></label>
+        <input asp-for="PricePerPerson" class="form-control" />
+        <span asp-validation-for="PricePerPerson" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="PriceIncludes"></label>
