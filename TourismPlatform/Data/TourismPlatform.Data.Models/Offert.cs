@@ -14,6 +14,7 @@
             this.Id = Guid.NewGuid().ToString();
             this.Users = new HashSet<ApplicationUser>();
             this.Gallery = new HashSet<Image>();
+            this.Votes = new HashSet<Vote>();
         }
 
         [Required]
@@ -55,5 +56,7 @@
         public virtual ICollection<Image> Gallery { get; set; }
 
         public virtual ICollection<ApplicationUser> Users { get; set; }
+
+        public virtual ICollection<Vote> Votes { get; set; }
     }
 }

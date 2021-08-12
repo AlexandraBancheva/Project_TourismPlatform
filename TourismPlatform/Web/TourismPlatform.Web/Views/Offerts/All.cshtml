@@ -8,13 +8,15 @@
 <div class="row">
     @foreach (var offert in this.Model.Offerts)
     {
-        <div class="media col-md-3">
-            <img src="@offert.ImageUrl" width="100" class="mr-3" />
+        <div class="col-md-4 col-xs-6">
+            <img src="@offert.ImageUrl" class="img-thumbnail" width="300" />
             <div class="media-body">
                 <h5 class="mt-0"><a asp-action="ById" asp-route-id="@offert.Id">@offert.FullName</a></h5>
-                @offert.StartDate - @offert.EndDate
-                @offert.TransportName
-                @offert.PricePerPerson 
+                <span>Дата: @offert.StartDate.ToShortDateString() - @offert.EndDate.ToShortDateString()</span>
+                <br />
+                <span>Транспорт: @offert.TransportName</span>
+                <br />
+                <span>Цена на човек: @offert.PricePerPerson</span>
             </div>
         </div>
     }
