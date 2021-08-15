@@ -22,3 +22,15 @@ C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPl
 C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data.Models\obj\Debug\netstandard2.1\TourismPlatform.Data.Models.csproj.CopyComplete
 C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data.Models\obj\Debug\netstandard2.1\TourismPlatform.Data.Models.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data.Models\obj\Debug\netstandard2.1\TourismPlatform.Data.Models.pdb
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data.Models\bin\Debug\netstandard2.1\TourismPlatform.Data.Models.deps.json
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data.Models\bin\Debug\netstandard2.1\TourismPlatform.Data.Models.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data.Models\bin\Debug\netstandard2.1\TourismPlatform.Data.Models.pdb
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data.Models\bin\Debug\netstandard2.1\TourismPlatform.Data.Common.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data.Models\bin\Debug\netstandard2.1\TourismPlatform.Data.Common.pdb
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data.Models\obj\Debug\netstandard2.1\TourismPlatform.Data.Models.csproj.AssemblyReference.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data.Models\obj\Debug\netstandard2.1\TourismPlatform.Data.Models.AssemblyInfoInputs.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data.Models\obj\Debug\netstandard2.1\TourismPlatform.Data.Models.AssemblyInfo.cs
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data.Models\obj\Debug\netstandard2.1\TourismPlatform.Data.Models.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data.Models\obj\Debug\netstandard2.1\TourismPlatform.Data.Models.csproj.CopyComplete
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data.Models\obj\Debug\netstandard2.1\TourismPlatform.Data.Models.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data.Models\obj\Debug\netstandard2.1\TourismPlatform.Data.Models.pdb

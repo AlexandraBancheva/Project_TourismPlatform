@@ -12,7 +12,7 @@
 
         public virtual Offert Offert { get; set; }
 
-        public string ApplicationId { get; set; }
+        public string ApplicationUserId { get; set; }
 
         public virtual ApplicationUser ApplicationUser { get; set; }
 

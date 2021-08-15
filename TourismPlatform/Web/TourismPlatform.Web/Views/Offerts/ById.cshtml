@@ -7,6 +7,14 @@
 <div>
     <h2>@this.Model.FullName</h2>
 </div>
+
+    <span data-vote="1"><i class="fa fa-star"></i></span>
+    <span data-vote="2"><i class="fa fa-star"></i></span>
+    <span data-vote="3"><i class="fa fa-star"></i></span>
+    <span data-vote="4"><i class="fa fa-star"></i></span>
+    <span data-vote="5"><i class="fa fa-star"></i></span>
+    <span id="averageVoteValue">@Model.AverageVote.ToString("0.0")</span><span> / 5</span>
+
 @if (this.User.IsInRole(GlobalConstants.AdministratorRoleName))
 {
     <li class="single-meta">
@@ -47,22 +55,26 @@
         </div>
     </div>
 </div>
+<p>@Model.Id</p>
+<form method="post" id="antiForgeryForm"></form>
 
 @section Scripts {
     <script>
-        $("li[data-vote]").each(function (el) {
+        $('span[data-vote]').each(function (el) {
+            console.log(el);
             $(this).click(function () {
-                var value = $(this).attr("data-vote");
-                var recipeId = @Model.Id;
+                var value = $(this).attr('data-vote');
+                var offertId = '@Model.Id';
                 var antiForgeryToken = $('#antiForgeryForm input[name=__RequestVerificationToken]').val();
-                var data = { recipeId: recipeId, value: value };
+                var data = { 'offertId': offertId, 'value': value };
+                console.log(data);
                 $.ajax({
-                    type: "POST",
-                    url: "/api/Votes",
+                    method: 'POST',
+                    url: '/api/Votes',
                     data: JSON.stringify(data),
-                    headers: {
-                        'X-CSRF-TOKEN': antiForgeryToken
-                    },
+                  headers: {
+                       'X-CSRF-TOKEN': antiForgeryToken
+                  },
                     success: function (data) {
                         $('#averageVoteValue').html(data.averageVote.toFixed(1));
                     },
@@ -86,3 +98,10 @@
         </div>
     </div>
 </div>
+
+<style>
+    .checked {
+        color: orange
+    }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
