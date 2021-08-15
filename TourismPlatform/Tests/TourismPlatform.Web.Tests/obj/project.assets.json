@@ -11523,11 +11523,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Tests\\TourismPlatform.Web.Tests\\TourismPlatform.Web.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Tests\\TourismPlatform.Web.Tests\\TourismPlatform.Web.Tests.csproj",
       "projectName": "TourismPlatform.Web.Tests",
-      "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Tests\\TourismPlatform.Web.Tests\\TourismPlatform.Web.Tests.csproj",
+      "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Tests\\TourismPlatform.Web.Tests\\TourismPlatform.Web.Tests.csproj",
       "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Tests\\TourismPlatform.Web.Tests\\obj\\",
+      "outputPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Tests\\TourismPlatform.Web.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -11548,8 +11548,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Web\\TourismPlatform.Web\\TourismPlatform.Web.csproj": {
-              "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Web\\TourismPlatform.Web\\TourismPlatform.Web.csproj"
+            "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Web\\TourismPlatform.Web\\TourismPlatform.Web.csproj": {
+              "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Web\\TourismPlatform.Web\\TourismPlatform.Web.csproj"
             }
           }
         }

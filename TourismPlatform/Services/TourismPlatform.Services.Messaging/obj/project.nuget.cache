@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K85T/j4n+Ut3dNk4XG/pkuP/w1j2jT9Lw3eTZHd1ufLRQrJVimFBTWwLwwq181dH0+2hELYGDId6iPukvhUBNg==",
+  "dgSpecHash": "6v4x/dnL4nESBE0b/kwhrnujfRvr6bCo2H6pnehPZ9gZTtO8Y2augekO0FLed2mTIKvm7VOoSPtTREo5PKGCvQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Services\\TourismPlatform.Services.Messaging\\TourismPlatform.Services.Messaging.csproj",
+  "projectFilePath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Services\\TourismPlatform.Services.Messaging\\TourismPlatform.Services.Messaging.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",

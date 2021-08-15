@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CbiiyoKAiPPF5QvuIqaJXr/tcL63QZwf5eQAE8ZHqB2wEhaptPN9oZ2LNHx2UKDp4kGwGIKfATl//Sg6ex624g==",
+  "dgSpecHash": "JRIuiE9/0znnFMSm2iylJvIuJyOfLu/xlI9YBAtt5Gy3TMjM02/C2dhkd8tJPQUV+G5iKZ0X8SmGuPXGDGHvlA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Web\\TourismPlatform.Web\\TourismPlatform.Web.csproj",
+  "projectFilePath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Web\\TourismPlatform.Web\\TourismPlatform.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512",

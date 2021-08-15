@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b1gZtDP3m2jXeyZsyjDjlUZhXrCFzGrooPlROZsBbJfSAkEAd1Qd5c1mQNteK/RIUWnPJ9LbyhmPDB0EYGbwKQ==",
+  "dgSpecHash": "/RjzG7y0w77IexmyY/TTracB3g5pwXahcSNEsMGilYpUClXJWOzFLNlBBfxyrCqIXQ57cLU9jl0JebCqtNvU5Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Tests\\Sandbox\\Sandbox.csproj",
+  "projectFilePath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Tests\\Sandbox\\Sandbox.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\commandlineparser\\2.8.0\\commandlineparser.2.8.0.nupkg.sha512",

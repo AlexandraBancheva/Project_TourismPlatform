@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Data\\TourismPlatform.Data\\TourismPlatform.Data.csproj": {}
+    "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Data\\TourismPlatform.Data\\TourismPlatform.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Data\\TourismPlatform.Data.Common\\TourismPlatform.Data.Common.csproj": {
+    "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Data\\TourismPlatform.Data.Common\\TourismPlatform.Data.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Data\\TourismPlatform.Data.Common\\TourismPlatform.Data.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Data\\TourismPlatform.Data.Common\\TourismPlatform.Data.Common.csproj",
         "projectName": "TourismPlatform.Data.Common",
-        "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Data\\TourismPlatform.Data.Common\\TourismPlatform.Data.Common.csproj",
+        "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Data\\TourismPlatform.Data.Common\\TourismPlatform.Data.Common.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Data\\TourismPlatform.Data.Common\\obj\\",
+        "outputPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Data\\TourismPlatform.Data.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Data\\TourismPlatform.Data.Models\\TourismPlatform.Data.Models.csproj": {
+    "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Data\\TourismPlatform.Data.Models\\TourismPlatform.Data.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Data\\TourismPlatform.Data.Models\\TourismPlatform.Data.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Data\\TourismPlatform.Data.Models\\TourismPlatform.Data.Models.csproj",
         "projectName": "TourismPlatform.Data.Models",
-        "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Data\\TourismPlatform.Data.Models\\TourismPlatform.Data.Models.csproj",
+        "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Data\\TourismPlatform.Data.Models\\TourismPlatform.Data.Models.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Data\\TourismPlatform.Data.Models\\obj\\",
+        "outputPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Data\\TourismPlatform.Data.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -102,8 +102,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Data\\TourismPlatform.Data.Common\\TourismPlatform.Data.Common.csproj": {
-                "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Data\\TourismPlatform.Data.Common\\TourismPlatform.Data.Common.csproj"
+              "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Data\\TourismPlatform.Data.Common\\TourismPlatform.Data.Common.csproj": {
+                "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Data\\TourismPlatform.Data.Common\\TourismPlatform.Data.Common.csproj"
               }
             }
           }
@@ -148,14 +148,14 @@
         }
       }
     },
-    "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Data\\TourismPlatform.Data\\TourismPlatform.Data.csproj": {
+    "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Data\\TourismPlatform.Data\\TourismPlatform.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Data\\TourismPlatform.Data\\TourismPlatform.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Data\\TourismPlatform.Data\\TourismPlatform.Data.csproj",
         "projectName": "TourismPlatform.Data",
-        "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Data\\TourismPlatform.Data\\TourismPlatform.Data.csproj",
+        "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Data\\TourismPlatform.Data\\TourismPlatform.Data.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Data\\TourismPlatform.Data\\obj\\",
+        "outputPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Data\\TourismPlatform.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -176,14 +176,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Data\\TourismPlatform.Data.Common\\TourismPlatform.Data.Common.csproj": {
-                "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Data\\TourismPlatform.Data.Common\\TourismPlatform.Data.Common.csproj"
+              "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Data\\TourismPlatform.Data.Common\\TourismPlatform.Data.Common.csproj": {
+                "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Data\\TourismPlatform.Data.Common\\TourismPlatform.Data.Common.csproj"
               },
-              "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Data\\TourismPlatform.Data.Models\\TourismPlatform.Data.Models.csproj": {
-                "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Data\\TourismPlatform.Data.Models\\TourismPlatform.Data.Models.csproj"
+              "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Data\\TourismPlatform.Data.Models\\TourismPlatform.Data.Models.csproj": {
+                "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Data\\TourismPlatform.Data.Models\\TourismPlatform.Data.Models.csproj"
               },
-              "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\TourismPlatform.Common\\TourismPlatform.Common.csproj": {
-                "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\TourismPlatform.Common\\TourismPlatform.Common.csproj"
+              "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\TourismPlatform.Common\\TourismPlatform.Common.csproj": {
+                "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\TourismPlatform.Common\\TourismPlatform.Common.csproj"
               }
             }
           }
@@ -248,14 +248,14 @@
         }
       }
     },
-    "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\TourismPlatform.Common\\TourismPlatform.Common.csproj": {
+    "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\TourismPlatform.Common\\TourismPlatform.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\TourismPlatform.Common\\TourismPlatform.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\TourismPlatform.Common\\TourismPlatform.Common.csproj",
         "projectName": "TourismPlatform.Common",
-        "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\TourismPlatform.Common\\TourismPlatform.Common.csproj",
+        "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\TourismPlatform.Common\\TourismPlatform.Common.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\TourismPlatform.Common\\obj\\",
+        "outputPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\TourismPlatform.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

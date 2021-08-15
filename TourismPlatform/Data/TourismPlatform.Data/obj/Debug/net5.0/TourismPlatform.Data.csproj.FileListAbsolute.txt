@@ -21,3 +21,49 @@ C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Data\TourismPlatfo
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Data\TourismPlatform.Data\obj\Debug\net5.0\ref\TourismPlatform.Data.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Data\TourismPlatform.Data\obj\Debug\net5.0\TourismPlatform.Data.pdb
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Data\TourismPlatform.Data\obj\Debug\net5.0\TourismPlatform.Data.genruntimeconfig.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\bin\Debug\net5.0\appsettings.json
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\bin\Debug\net5.0\TourismPlatform.Data.deps.json
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\bin\Debug\net5.0\TourismPlatform.Data.runtimeconfig.json
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\bin\Debug\net5.0\TourismPlatform.Data.runtimeconfig.dev.json
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\bin\Debug\net5.0\TourismPlatform.Data.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\bin\Debug\net5.0\ref\TourismPlatform.Data.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\bin\Debug\net5.0\TourismPlatform.Data.pdb
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\bin\Debug\net5.0\TourismPlatform.Common.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\bin\Debug\net5.0\TourismPlatform.Data.Common.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\bin\Debug\net5.0\TourismPlatform.Data.Models.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\bin\Debug\net5.0\TourismPlatform.Common.pdb
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\bin\Debug\net5.0\TourismPlatform.Data.Common.pdb
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\bin\Debug\net5.0\TourismPlatform.Data.Models.pdb
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\obj\Debug\net5.0\TourismPlatform.Data.csproj.AssemblyReference.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\obj\Debug\net5.0\TourismPlatform.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\obj\Debug\net5.0\TourismPlatform.Data.AssemblyInfoInputs.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\obj\Debug\net5.0\TourismPlatform.Data.AssemblyInfo.cs
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\obj\Debug\net5.0\TourismPlatform.Data.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\obj\Debug\net5.0\TourismPlatform.Data.csproj.CopyComplete
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\obj\Debug\net5.0\TourismPlatform.Data.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\obj\Debug\net5.0\ref\TourismPlatform.Data.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\obj\Debug\net5.0\TourismPlatform.Data.pdb
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\obj\Debug\net5.0\TourismPlatform.Data.genruntimeconfig.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\bin\Debug\net5.0\appsettings.json
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\bin\Debug\net5.0\TourismPlatform.Data.deps.json
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\bin\Debug\net5.0\TourismPlatform.Data.runtimeconfig.json
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\bin\Debug\net5.0\TourismPlatform.Data.runtimeconfig.dev.json
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\bin\Debug\net5.0\TourismPlatform.Data.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\bin\Debug\net5.0\ref\TourismPlatform.Data.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\bin\Debug\net5.0\TourismPlatform.Data.pdb
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\bin\Debug\net5.0\TourismPlatform.Common.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\bin\Debug\net5.0\TourismPlatform.Data.Common.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\bin\Debug\net5.0\TourismPlatform.Data.Models.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\bin\Debug\net5.0\TourismPlatform.Common.pdb
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\bin\Debug\net5.0\TourismPlatform.Data.Common.pdb
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\bin\Debug\net5.0\TourismPlatform.Data.Models.pdb
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\obj\Debug\net5.0\TourismPlatform.Data.csproj.AssemblyReference.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\obj\Debug\net5.0\TourismPlatform.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\obj\Debug\net5.0\TourismPlatform.Data.AssemblyInfoInputs.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\obj\Debug\net5.0\TourismPlatform.Data.AssemblyInfo.cs
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\obj\Debug\net5.0\TourismPlatform.Data.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\obj\Debug\net5.0\TourismPlatform.Data.csproj.CopyComplete
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\obj\Debug\net5.0\TourismPlatform.Data.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\obj\Debug\net5.0\ref\TourismPlatform.Data.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\obj\Debug\net5.0\TourismPlatform.Data.pdb
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data\obj\Debug\net5.0\TourismPlatform.Data.genruntimeconfig.cache

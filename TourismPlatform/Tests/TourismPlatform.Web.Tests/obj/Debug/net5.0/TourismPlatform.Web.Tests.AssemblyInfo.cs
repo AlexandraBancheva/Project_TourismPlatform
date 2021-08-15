@@ -12,10 +12,10 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("TourismPlatform.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Data\\TourismPlatfor" +
-    "m.Data", "TourismPlatform.Data.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("TourismPlatform.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Web\\TourismPlatform" +
-    ".Web", "TourismPlatform.Web.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("TourismPlatform.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismP" +
+    "latform\\TourismPlatform\\Data\\TourismPlatform.Data", "TourismPlatform.Data.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("TourismPlatform.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismP" +
+    "latform\\TourismPlatform\\Web\\TourismPlatform.Web", "TourismPlatform.Web.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("TourismPlatform.Web.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

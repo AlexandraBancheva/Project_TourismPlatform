@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EocFKu7gkWVzyb9K3ZGTgLzMHksB01SsazpZ9F5pltQrNzZL7DF/ySo5bPAPxy0hEb3ZbaXJ89D2BEtdgc7cmA==",
+  "dgSpecHash": "DeHcf/S+Im/5XZUArq3e84jXTKWAMIgnuA93h9FwejmS1w2pBv1b//TUNZlNQJHruXYc+g4qs71SbFZj66ruMw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Services\\TourismPlatform.Services.Data\\TourismPlatform.Services.Data.csproj",
+  "projectFilePath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Services\\TourismPlatform.Services.Data\\TourismPlatform.Services.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.6\\microsoft.aspnetcore.cryptography.internal.5.0.6.nupkg.sha512",

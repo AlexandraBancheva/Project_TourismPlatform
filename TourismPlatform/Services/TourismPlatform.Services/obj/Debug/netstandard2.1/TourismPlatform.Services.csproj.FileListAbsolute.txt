@@ -7,3 +7,12 @@ C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Services\TourismPl
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Services\TourismPlatform.Services\obj\Debug\netstandard2.1\TourismPlatform.Services.csproj.CoreCompileInputs.cache
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Services\TourismPlatform.Services\obj\Debug\netstandard2.1\TourismPlatform.Services.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\TourismPlatform\Services\TourismPlatform.Services\obj\Debug\netstandard2.1\TourismPlatform.Services.pdb
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services\bin\Debug\netstandard2.1\TourismPlatform.Services.deps.json
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services\bin\Debug\netstandard2.1\TourismPlatform.Services.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services\bin\Debug\netstandard2.1\TourismPlatform.Services.pdb
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services\obj\Debug\netstandard2.1\TourismPlatform.Services.csproj.AssemblyReference.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services\obj\Debug\netstandard2.1\TourismPlatform.Services.AssemblyInfoInputs.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services\obj\Debug\netstandard2.1\TourismPlatform.Services.AssemblyInfo.cs
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services\obj\Debug\netstandard2.1\TourismPlatform.Services.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services\obj\Debug\netstandard2.1\TourismPlatform.Services.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services\obj\Debug\netstandard2.1\TourismPlatform.Services.pdb

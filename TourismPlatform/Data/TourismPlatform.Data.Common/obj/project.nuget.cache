@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sePvuenHQIagdr7xvTwU90ekkBU4aPlVCTZQiFr54k90gAAcoFd7z1mjK9sKCi7/HdEyzXPcd8y49AU16qVWrg==",
+  "dgSpecHash": "ciCgSLkvhWF9YR/xrV35cuFGeEIDljmVt4bqLRM7TR1mTjpag0+5JdqcCe0iyksJ/pH98vd9hN08Jr2lz6d9XA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\TourismPlatform\\Data\\TourismPlatform.Data.Common\\TourismPlatform.Data.Common.csproj",
+  "projectFilePath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Data\\TourismPlatform.Data.Common\\TourismPlatform.Data.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512",

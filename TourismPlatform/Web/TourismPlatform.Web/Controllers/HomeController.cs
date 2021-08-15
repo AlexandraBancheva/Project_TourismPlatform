@@ -24,12 +24,7 @@
 
         public IActionResult Index()
         {
-            var viewModel = new HomeOffertsInListViewModel
-            {
-                HomeOfferts = this.offertsService.GetRandom(3),
-            };
-
-            return this.View(viewModel);
+            return this.View();
         }
 
         public IActionResult Privacy()
