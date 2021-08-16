@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Web\\TourismPlatform.Web.Infrastructure\\TourismPlatform.Web.Infrastructure.csproj": {}
+    "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Project_TourismPlatform\\TourismPlatform\\Web\\TourismPlatform.Web.Infrastructure\\TourismPlatform.Web.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Web\\TourismPlatform.Web.Infrastructure\\TourismPlatform.Web.Infrastructure.csproj": {
+    "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Project_TourismPlatform\\TourismPlatform\\Web\\TourismPlatform.Web.Infrastructure\\TourismPlatform.Web.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Web\\TourismPlatform.Web.Infrastructure\\TourismPlatform.Web.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Project_TourismPlatform\\TourismPlatform\\Web\\TourismPlatform.Web.Infrastructure\\TourismPlatform.Web.Infrastructure.csproj",
         "projectName": "TourismPlatform.Web.Infrastructure",
-        "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Web\\TourismPlatform.Web.Infrastructure\\TourismPlatform.Web.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Project_TourismPlatform\\TourismPlatform\\Web\\TourismPlatform.Web.Infrastructure\\TourismPlatform.Web.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Web\\TourismPlatform.Web.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Project_TourismPlatform\\TourismPlatform\\Web\\TourismPlatform.Web.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

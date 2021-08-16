@@ -52,3 +52,21 @@ C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_Tourism
 C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services.Data\obj\Debug\netstandard2.1\TourismPlatform.Services.Data.csproj.CopyComplete
 C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services.Data\obj\Debug\netstandard2.1\TourismPlatform.Services.Data.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services.Data\obj\Debug\netstandard2.1\TourismPlatform.Services.Data.pdb
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services.Data\bin\Debug\netstandard2.1\TourismPlatform.Services.Data.deps.json
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services.Data\bin\Debug\netstandard2.1\TourismPlatform.Services.Data.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services.Data\bin\Debug\netstandard2.1\TourismPlatform.Services.Data.pdb
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services.Data\bin\Debug\netstandard2.1\TourismPlatform.Data.Common.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services.Data\bin\Debug\netstandard2.1\TourismPlatform.Data.Models.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services.Data\bin\Debug\netstandard2.1\TourismPlatform.Services.Mapping.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services.Data\bin\Debug\netstandard2.1\TourismPlatform.Web.ViewModels.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services.Data\bin\Debug\netstandard2.1\TourismPlatform.Data.Common.pdb
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services.Data\bin\Debug\netstandard2.1\TourismPlatform.Data.Models.pdb
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services.Data\bin\Debug\netstandard2.1\TourismPlatform.Web.ViewModels.pdb
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services.Data\bin\Debug\netstandard2.1\TourismPlatform.Services.Mapping.pdb
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services.Data\obj\Debug\netstandard2.1\TourismPlatform.Services.Data.csproj.AssemblyReference.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services.Data\obj\Debug\netstandard2.1\TourismPlatform.Services.Data.AssemblyInfoInputs.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services.Data\obj\Debug\netstandard2.1\TourismPlatform.Services.Data.AssemblyInfo.cs
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services.Data\obj\Debug\netstandard2.1\TourismPlatform.Services.Data.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services.Data\obj\Debug\netstandard2.1\TourismPlatform.Services.Data.csproj.CopyComplete
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services.Data\obj\Debug\netstandard2.1\TourismPlatform.Services.Data.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services.Data\obj\Debug\netstandard2.1\TourismPlatform.Services.Data.pdb

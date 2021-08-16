@@ -14,3 +14,12 @@ C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPl
 C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Web\TourismPlatform.Web.Infrastructure\obj\Debug\netstandard2.1\TourismPlatform.Web.Infrastructure.csproj.CoreCompileInputs.cache
 C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Web\TourismPlatform.Web.Infrastructure\obj\Debug\netstandard2.1\TourismPlatform.Web.Infrastructure.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPlatform\TourismPlatform\Web\TourismPlatform.Web.Infrastructure\obj\Debug\netstandard2.1\TourismPlatform.Web.Infrastructure.pdb
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Web\TourismPlatform.Web.Infrastructure\bin\Debug\netstandard2.1\TourismPlatform.Web.Infrastructure.deps.json
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Web\TourismPlatform.Web.Infrastructure\bin\Debug\netstandard2.1\TourismPlatform.Web.Infrastructure.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Web\TourismPlatform.Web.Infrastructure\bin\Debug\netstandard2.1\TourismPlatform.Web.Infrastructure.pdb
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Web\TourismPlatform.Web.Infrastructure\obj\Debug\netstandard2.1\TourismPlatform.Web.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Web\TourismPlatform.Web.Infrastructure\obj\Debug\netstandard2.1\TourismPlatform.Web.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Web\TourismPlatform.Web.Infrastructure\obj\Debug\netstandard2.1\TourismPlatform.Web.Infrastructure.AssemblyInfo.cs
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Web\TourismPlatform.Web.Infrastructure\obj\Debug\netstandard2.1\TourismPlatform.Web.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Web\TourismPlatform.Web.Infrastructure\obj\Debug\netstandard2.1\TourismPlatform.Web.Infrastructure.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Web\TourismPlatform.Web.Infrastructure\obj\Debug\netstandard2.1\TourismPlatform.Web.Infrastructure.pdb

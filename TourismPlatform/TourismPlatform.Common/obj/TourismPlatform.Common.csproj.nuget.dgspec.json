@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\TourismPlatform.Common\\TourismPlatform.Common.csproj": {}
+    "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Project_TourismPlatform\\TourismPlatform\\TourismPlatform.Common\\TourismPlatform.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\TourismPlatform.Common\\TourismPlatform.Common.csproj": {
+    "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Project_TourismPlatform\\TourismPlatform\\TourismPlatform.Common\\TourismPlatform.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\TourismPlatform.Common\\TourismPlatform.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Project_TourismPlatform\\TourismPlatform\\TourismPlatform.Common\\TourismPlatform.Common.csproj",
         "projectName": "TourismPlatform.Common",
-        "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\TourismPlatform.Common\\TourismPlatform.Common.csproj",
+        "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Project_TourismPlatform\\TourismPlatform\\TourismPlatform.Common\\TourismPlatform.Common.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\TourismPlatform.Common\\obj\\",
+        "outputPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Project_TourismPlatform\\TourismPlatform\\TourismPlatform.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

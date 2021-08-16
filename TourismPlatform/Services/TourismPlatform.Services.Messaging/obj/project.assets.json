@@ -2795,11 +2795,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Services\\TourismPlatform.Services.Messaging\\TourismPlatform.Services.Messaging.csproj",
+      "projectUniqueName": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Project_TourismPlatform\\TourismPlatform\\Services\\TourismPlatform.Services.Messaging\\TourismPlatform.Services.Messaging.csproj",
       "projectName": "TourismPlatform.Services.Messaging",
-      "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Services\\TourismPlatform.Services.Messaging\\TourismPlatform.Services.Messaging.csproj",
+      "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Project_TourismPlatform\\TourismPlatform\\Services\\TourismPlatform.Services.Messaging\\TourismPlatform.Services.Messaging.csproj",
       "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Services\\TourismPlatform.Services.Messaging\\obj\\",
+      "outputPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Project_TourismPlatform\\TourismPlatform\\Services\\TourismPlatform.Services.Messaging\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

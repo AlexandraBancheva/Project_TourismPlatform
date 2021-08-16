@@ -85,6 +85,8 @@
             {
                 foreignKey.DeleteBehavior = DeleteBehavior.Restrict;
             }
+
+           // builder.Entity<Vote>().HasKey(x => new { x.UserId, x.OffertId });
         }
 
         private static void SetIsDeletedQueryFilter<T>(ModelBuilder builder)

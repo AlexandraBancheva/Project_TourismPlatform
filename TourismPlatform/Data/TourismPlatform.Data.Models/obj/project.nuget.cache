@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fOQUf2S/GcM9utBhNsDJdhcL2SpZylR/nxIcA4lI3Fs1PEt+cz65kgfrRbC3N8xYCRUBulVWhTenwzTzneCSzg==",
+  "dgSpecHash": "6RVEBPO4yKGAdpZqCuK3d+3mmj3//gf3jrlCtcYWIdACAkQ/3n2BV9nlMhkihEGm2AkoYoLu0EVKVCGv+ed6nA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Data\\TourismPlatform.Data.Models\\TourismPlatform.Data.Models.csproj",
+  "projectFilePath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Project_TourismPlatform\\TourismPlatform\\Data\\TourismPlatform.Data.Models\\TourismPlatform.Data.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.6\\microsoft.aspnetcore.cryptography.internal.5.0.6.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.6\\microsoft.aspnetcore.cryptography.keyderivation.5.0.6.nupkg.sha512",

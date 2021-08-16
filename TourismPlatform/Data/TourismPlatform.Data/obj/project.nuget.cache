@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MZp2cCW+7oR4fZDTA3+RG2D3rONpX6giqizrTF66ZGLrS6L81OTcKlbRJognOFrPe8I6m+LwcX1Ym5AvYanNOQ==",
+  "dgSpecHash": "kpHL1J4SblBM0Q1XHrLrRMyL246XT3ro3cIB2dCibOeFrz8oQusGycrN+TGND5VzmTXvM9SidYvj6IaNCLGw3Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Data\\TourismPlatform.Data\\TourismPlatform.Data.csproj",
+  "projectFilePath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Project_TourismPlatform\\TourismPlatform\\Data\\TourismPlatform.Data\\TourismPlatform.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.6\\microsoft.aspnetcore.cryptography.internal.5.0.6.nupkg.sha512",

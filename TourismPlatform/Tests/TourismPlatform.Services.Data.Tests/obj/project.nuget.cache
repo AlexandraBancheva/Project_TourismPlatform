@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kQsndmH7yCgSc713N8J4TgXNmlI0Aqn56nuk105DteanJ4yit2xMvrJcL3WrebEIC7z/bYZb6nJhxkpekhg6dw==",
+  "dgSpecHash": "0ENL1pfniak6PxG5FAUhX2wXttnTBt6spoldX+MOzUnA9MdjRF9U6O0Xske5CtFgVl42Pu5V8sECpiECLSSJSg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Tests\\TourismPlatform.Services.Data.Tests\\TourismPlatform.Services.Data.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Project_TourismPlatform\\TourismPlatform\\Tests\\TourismPlatform.Services.Data.Tests\\TourismPlatform.Services.Data.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",

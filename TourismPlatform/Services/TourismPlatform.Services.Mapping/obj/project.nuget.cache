@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tFOw9LQkT7VYj9yqvgdPhrG1cRWTL4L8sl4kvb8nBsGL5qhpLQMLBIi3SKc5Jo4/s2HxiTZy8wK9HWnipxeqMA==",
+  "dgSpecHash": "uyP4XyOszJYlDBxUTxNoMh/LxZskemfIlA5X10htj958ziVCMVxTak8Okvi8xol/HQLpnQ+k/zxPtUWKEvkVqw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Tourism Platform 2\\Project_TourismPlatform\\TourismPlatform\\Services\\TourismPlatform.Services.Mapping\\TourismPlatform.Services.Mapping.csproj",
+  "projectFilePath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Project_TourismPlatform\\TourismPlatform\\Services\\TourismPlatform.Services.Mapping\\TourismPlatform.Services.Mapping.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

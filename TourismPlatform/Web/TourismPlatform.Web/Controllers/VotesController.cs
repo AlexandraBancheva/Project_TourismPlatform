@@ -29,8 +29,8 @@
         {
             var applicationUserId = this.User.FindFirst(ClaimTypes.NameIdentifier).Value;
             await this.votesService.SetVoteAsync(model.OffertId, applicationUserId, model.Value);
-            var averageVotes = this.votesService.GetAverageVotes(model.OffertId);
-            return new PostVoteResponseModel { AverageVote = averageVotes };
+            var averagevotes = this.votesService.GetAverageVotes(model.OffertId);
+            return new PostVoteResponseModel { AverageVote = averagevotes };
         }
     }
 }
