@@ -2,9 +2,14 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.Linq;
     using System.Text;
 
-    public class OffertListViewModel
+    using AutoMapper;
+    using TourismPlatform.Data.Models;
+    using TourismPlatform.Services.Mapping;
+
+    public class OffertListViewModel : IMapFrom<Offert>, IHaveCustomMappings
     {
         public string Id { get; set; }
 
@@ -21,5 +26,12 @@
         public DateTime EndDate{ get; set; }
 
         public decimal PricePerPerson { get; set; }
+
+        public void CreateMappings(IProfileExpression configuration)
+        {
+            configuration.CreateMap<Offert, OffertListViewModel>()
+                .ForMember(x => x.ImageUrl, opt =>
+                opt.MapFrom(i => "/images/offerts/" + i.Gallery.FirstOrDefault().Id + "." + i.Gallery.FirstOrDefault().Extension));
+        }
     }
 }

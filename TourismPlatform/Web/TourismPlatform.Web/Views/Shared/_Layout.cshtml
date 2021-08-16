@@ -37,6 +37,9 @@
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Offerts" asp-action="All">All Offerts</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="SearchOfferts" asp-action="Index">Search</a>
+                            </li>
 
                         }
                         @if (this.User.IsInRole(GlobalConstants.AdministratorRoleName))

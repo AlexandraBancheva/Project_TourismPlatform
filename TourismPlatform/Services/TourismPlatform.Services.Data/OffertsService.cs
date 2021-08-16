@@ -148,5 +148,11 @@
 
             await this.offertRepository.SaveChangesAsync();
         }
+
+        public IEnumerable<T> GetByCategory<T>(string categoryId)
+        {
+            var offerts = this.offertRepository.All().Where(x => x.CategoryId == categoryId).OrderBy(o => o.Id).To<T>().ToList();
+            return offerts;
+        }
     }
 }

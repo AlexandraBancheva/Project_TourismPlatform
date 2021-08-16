@@ -1,0 +1,23 @@
+﻿@model TourismPlatform.Web.ViewModels.SearchOfferts.ListCategoriesViewModel
+@{
+    ViewData["Title"] = "Search by categories";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="List" method="get">
+    <div class="row">
+        @foreach (var category in Model.Offerts)
+         {
+            <div class="col-1 text-center">
+                <input id="category_@category.Id"
+                       type="radio" 
+                       name="CategoryId"
+                       value="@category.Id" />
+                <label for="category_@category.Id">@category.Name</label>
+            </div>
+         }
+    </div>
+
+    <button class="btn btn-primary">Search</button>
+</form> 

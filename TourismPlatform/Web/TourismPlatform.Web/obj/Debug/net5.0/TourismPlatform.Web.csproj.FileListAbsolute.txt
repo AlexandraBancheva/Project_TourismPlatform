@@ -1450,3 +1450,5 @@ C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_Tourism
 C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Web\TourismPlatform.Web\obj\Debug\net5.0\TourismPlatform.Web.Views.pdb
 C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Web\TourismPlatform.Web\obj\Debug\net5.0\TourismPlatform.Web.csproj.CopyComplete
 C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Web\TourismPlatform.Web\obj\Debug\net5.0\TourismPlatform.Web.genruntimeconfig.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Web\TourismPlatform.Web\obj\Debug\net5.0\Razor\Views\SearchOfferts\Index.cshtml.g.cs
+C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform 2\Project_TourismPlatform\TourismPlatform\Web\TourismPlatform.Web\obj\Debug\net5.0\Razor\Views\SearchOfferts\List.cshtml.g.cs

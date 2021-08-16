@@ -25,5 +25,7 @@
         Task UpdateAsync(string id, EditOffertFormModel model);
 
         T GetById<T>(string id);
+
+        IEnumerable<T> GetByCategory<T>(string categoryId);
     }
 }

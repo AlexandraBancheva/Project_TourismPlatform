@@ -4,8 +4,10 @@
     using System.Collections.Generic;
     using System.Linq;
     using System.Text;
+
     using TourismPlatform.Data.Common.Repositories;
     using TourismPlatform.Data.Models;
+    using TourismPlatform.Services.Mapping;
 
     public class CategoriesService : ICategoriesService
     {
@@ -25,6 +27,14 @@
             })
                 .ToList()
                 .Select(x => new KeyValuePair<string, string>(x.Id, x.Name));
+        }
+
+        public IEnumerable<T> GetAllCategories<T>()
+        {
+            return this.categoryRepository.All()
+                .OrderBy(X => X.Id)
+                .To<T>()
+                .ToList();
         }
     }
 }
