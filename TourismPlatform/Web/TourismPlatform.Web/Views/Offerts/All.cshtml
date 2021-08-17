@@ -12,11 +12,11 @@
             <img src="@offert.ImageUrl" class="img-thumbnail" width="300" />
             <div class="media-body">
                 <h5 class="mt-0"><a asp-action="ById" asp-route-id="@offert.Id">@offert.FullName</a></h5>
-                <span>Дата: @offert.StartDate.ToShortDateString() - @offert.EndDate.ToShortDateString()</span>
+                <span>Date: @offert.StartDate.ToShortDateString() - @offert.EndDate.ToShortDateString()</span>
                 <br />
-                <span>Транспорт: @offert.TransportName</span>
+                <span>Transport: @offert.TransportName</span>
                 <br />
-                <span>Цена на човек: @offert.PricePerPerson</span>
+                <span>Price per person: @offert.PricePerPerson lv.</span>
             </div>
         </div>
     }

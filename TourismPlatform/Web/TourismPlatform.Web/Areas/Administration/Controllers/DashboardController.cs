@@ -1,9 +1,8 @@
 ﻿namespace TourismPlatform.Web.Areas.Administration.Controllers
 {
+    using Microsoft.AspNetCore.Mvc;
     using TourismPlatform.Services.Data;
     using TourismPlatform.Web.ViewModels.Administration.Dashboard;
-
-    using Microsoft.AspNetCore.Mvc;
 
     public class DashboardController : AdministrationController
     {

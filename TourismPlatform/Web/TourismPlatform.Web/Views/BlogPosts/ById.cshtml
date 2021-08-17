@@ -1,24 +1,19 @@
 ﻿@model TourismPlatform.Web.ViewModels.BlogPosts.SingleBlogPostViewModel
 @{
     this.ViewData["Title"] = Model.Title;
+    this.ViewData["Author"] = Model.AuthorName;
 }
 <div class="container">
     <div>
         <h2>@this.Model.Title</h2>
+        <span>Author: @Model.AuthorName</span>
     </div>
+    <br />
 
-    <div class="item-figure">
-        <img class="img-fluid w-95" src="@Model.ImageUrl" alt="@Model.Title" />
-    </div>
-    <div class="ctg-name">
-        <h5>Автор: @Model.AuthorName</h5>
-        <div class="row">
-            <div class="">
-                <p class="item-description">
-                    @Model.Content
-                </p>
-            </div>
-
+    <div class="card" style="width: 60rem;">
+        <img class="card-img-top" src="@Model.ImageUrl" alt="@Model.Title">
+        <div class="card-body">
+            <p class="card-text">@Model.Content</p>
         </div>
     </div>
 </div>

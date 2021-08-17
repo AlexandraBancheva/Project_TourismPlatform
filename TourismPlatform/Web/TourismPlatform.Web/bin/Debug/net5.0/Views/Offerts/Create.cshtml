@@ -1,6 +1,6 @@
 ﻿@model TourismPlatform.Web.ViewModels.Offerts.OffertFormModel
 @{
-    this.ViewData["Title"] = "Add new offert";
+    this.ViewData["Title"] = "Add new offer";
     var categoryItems = this.Model.CategoryItems.Select(x => new SelectListItem(x.Value, x.Key));
     var transportItems = this.Model.TransportItems.Select(x => new SelectListItem(x.Value, x.Key));
 }
