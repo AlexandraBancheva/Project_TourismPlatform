@@ -1938,3 +1938,4 @@ C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPla
 C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Web\TourismPlatform.Web\obj\Debug\net5.0\ref\TourismPlatform.Web.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Web\TourismPlatform.Web\obj\Debug\net5.0\TourismPlatform.Web.pdb
 C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Web\TourismPlatform.Web\obj\Debug\net5.0\TourismPlatform.Web.genruntimeconfig.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Web\TourismPlatform.Web\obj\Debug\net5.0\Razor\Views\BlogPosts\Create.cshtml.g.cs

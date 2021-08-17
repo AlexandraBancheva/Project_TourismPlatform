@@ -1092,7 +1092,6 @@ C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPla
 C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Tests\TourismPlatform.Web.Tests\bin\Debug\net5.0\appsettings.json
 C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Tests\TourismPlatform.Web.Tests\bin\Debug\net5.0\bundleconfig.json
 C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Tests\TourismPlatform.Web.Tests\bin\Debug\net5.0\libman.json
-C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Tests\TourismPlatform.Web.Tests\bin\Debug\net5.0\TourismPlatform.Web.StaticWebAssets.xml
 C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Tests\TourismPlatform.Web.Tests\bin\Debug\net5.0\TourismPlatform.Web.exe
 C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Tests\TourismPlatform.Web.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Tests\TourismPlatform.Web.Tests\bin\Debug\net5.0\TourismPlatform.Web.Tests.StaticWebAssets.xml
@@ -1618,3 +1617,4 @@ C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPla
 C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Tests\TourismPlatform.Web.Tests\obj\Debug\net5.0\ref\TourismPlatform.Web.Tests.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Tests\TourismPlatform.Web.Tests\obj\Debug\net5.0\TourismPlatform.Web.Tests.pdb
 C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Tests\TourismPlatform.Web.Tests\obj\Debug\net5.0\TourismPlatform.Web.Tests.genruntimeconfig.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Tests\TourismPlatform.Web.Tests\bin\Debug\net5.0\TourismPlatform.Web.StaticWebAssets.xml
