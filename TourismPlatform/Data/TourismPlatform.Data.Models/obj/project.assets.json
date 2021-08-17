@@ -312,6 +312,16 @@
           "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
       },
+      "TourismPlatform.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/TourismPlatform.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TourismPlatform.Common.dll": {}
+        }
+      },
       "TourismPlatform.Data.Common/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
@@ -979,6 +989,11 @@
         "version.txt"
       ]
     },
+    "TourismPlatform.Common/1.0.0": {
+      "type": "project",
+      "path": "../../TourismPlatform.Common/TourismPlatform.Common.csproj",
+      "msbuildProject": "../../TourismPlatform.Common/TourismPlatform.Common.csproj"
+    },
     "TourismPlatform.Data.Common/1.0.0": {
       "type": "project",
       "path": "../TourismPlatform.Data.Common/TourismPlatform.Data.Common.csproj",
@@ -989,6 +1004,7 @@
     ".NETStandard,Version=v2.1": [
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.6",
       "StyleCop.Analyzers >= 1.2.0-beta.312",
+      "TourismPlatform.Common >= 1.0.0",
       "TourismPlatform.Data.Common >= 1.0.0"
     ]
   },
@@ -1026,6 +1042,9 @@
           "projectReferences": {
             "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Project_TourismPlatform\\TourismPlatform\\Data\\TourismPlatform.Data.Common\\TourismPlatform.Data.Common.csproj": {
               "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Project_TourismPlatform\\TourismPlatform\\Data\\TourismPlatform.Data.Common\\TourismPlatform.Data.Common.csproj"
+            },
+            "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Project_TourismPlatform\\TourismPlatform\\TourismPlatform.Common\\TourismPlatform.Common.csproj": {
+              "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Project_TourismPlatform\\TourismPlatform\\TourismPlatform.Common\\TourismPlatform.Common.csproj"
             }
           }
         }

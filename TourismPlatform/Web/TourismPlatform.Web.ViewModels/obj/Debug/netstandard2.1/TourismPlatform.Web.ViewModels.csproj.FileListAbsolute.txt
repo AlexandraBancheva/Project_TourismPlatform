@@ -62,3 +62,5 @@ C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPla
 C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Web\TourismPlatform.Web.ViewModels\obj\Debug\netstandard2.1\TourismPlatform.Web.ViewModels.csproj.CopyComplete
 C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Web\TourismPlatform.Web.ViewModels\obj\Debug\netstandard2.1\TourismPlatform.Web.ViewModels.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Web\TourismPlatform.Web.ViewModels\obj\Debug\netstandard2.1\TourismPlatform.Web.ViewModels.pdb
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Web\TourismPlatform.Web.ViewModels\bin\Debug\netstandard2.1\TourismPlatform.Common.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Web\TourismPlatform.Web.ViewModels\bin\Debug\netstandard2.1\TourismPlatform.Common.pdb

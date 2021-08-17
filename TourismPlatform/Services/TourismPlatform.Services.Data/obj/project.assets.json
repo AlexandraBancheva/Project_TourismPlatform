@@ -382,6 +382,16 @@
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         }
       },
+      "TourismPlatform.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/TourismPlatform.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TourismPlatform.Common.dll": {}
+        }
+      },
       "TourismPlatform.Data.Common/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
@@ -400,6 +410,7 @@
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.6",
+          "TourismPlatform.Common": "1.0.0",
           "TourismPlatform.Data.Common": "1.0.0"
         },
         "compile": {
@@ -1311,6 +1322,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "TourismPlatform.Common/1.0.0": {
+      "type": "project",
+      "path": "../../TourismPlatform.Common/TourismPlatform.Common.csproj",
+      "msbuildProject": "../../TourismPlatform.Common/TourismPlatform.Common.csproj"
     },
     "TourismPlatform.Data.Common/1.0.0": {
       "type": "project",

@@ -46,3 +46,5 @@ C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPla
 C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data.Models\obj\Debug\netstandard2.1\TourismPlatform.Data.Models.csproj.CopyComplete
 C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data.Models\obj\Debug\netstandard2.1\TourismPlatform.Data.Models.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data.Models\obj\Debug\netstandard2.1\TourismPlatform.Data.Models.pdb
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data.Models\bin\Debug\netstandard2.1\TourismPlatform.Common.dll
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data.Models\bin\Debug\netstandard2.1\TourismPlatform.Common.pdb

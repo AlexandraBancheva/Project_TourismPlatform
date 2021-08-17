@@ -1239,6 +1239,7 @@
       "TourismPlatform.Data.Models/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.6",
+          "TourismPlatform.Common": "1.0.0",
           "TourismPlatform.Data.Common": "1.0.0"
         },
         "runtime": {

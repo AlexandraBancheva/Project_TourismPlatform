@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\TourismPlatform.Common\TourismPlatform.Common.csproj" />
     <ProjectReference Include="..\TourismPlatform.Data.Common\TourismPlatform.Data.Common.csproj" />
   </ItemGroup>
   

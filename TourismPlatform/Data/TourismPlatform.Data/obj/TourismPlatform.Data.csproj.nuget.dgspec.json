@@ -104,6 +104,9 @@
             "projectReferences": {
               "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Project_TourismPlatform\\TourismPlatform\\Data\\TourismPlatform.Data.Common\\TourismPlatform.Data.Common.csproj": {
                 "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Project_TourismPlatform\\TourismPlatform\\Data\\TourismPlatform.Data.Common\\TourismPlatform.Data.Common.csproj"
+              },
+              "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Project_TourismPlatform\\TourismPlatform\\TourismPlatform.Common\\TourismPlatform.Common.csproj": {
+                "projectPath": "C:\\Users\\Alex\\Desktop\\TourismPlatform_project\\Project_TourismPlatform\\TourismPlatform\\TourismPlatform.Common\\TourismPlatform.Common.csproj"
               }
             }
           }

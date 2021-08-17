@@ -7,5 +7,7 @@
         public const string AdministratorRoleName = "Administrator";
 
         public const string TravelAgentRoleName = "TravelAgent";
+
+        public const int MaxLengthTitleBlogPost = 20;
     }
 }

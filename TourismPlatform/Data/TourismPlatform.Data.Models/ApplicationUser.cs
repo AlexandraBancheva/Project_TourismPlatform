@@ -20,6 +20,7 @@ namespace TourismPlatform.Data.Models
             this.Offerts = new HashSet<Offert>();
             this.CreatedOfferts = new HashSet<Offert>();
             this.Votes = new HashSet<Vote>();
+            this.BlogPosts = new HashSet<BlogPost>();
         }
 
         public string FullName { get; set; }
@@ -48,5 +49,7 @@ namespace TourismPlatform.Data.Models
         public virtual ICollection<IdentityUserLogin<string>> Logins { get; set; }
 
         public virtual ICollection<Vote> Votes { get; set; }
+
+        public virtual ICollection<BlogPost> BlogPosts { get; set; }
     }
 }
