@@ -10,5 +10,11 @@
     public interface IBlogPostsService
     {
         Task AddSync(BlogPostFormModel model, string authorId, string imagePath);
+
+        IEnumerable<BlogPostViewModel> GetAll(int page, int itemsPerPage = 12);
+
+        int GetCount();
+
+        T GetById<T>(int id);
     }
 }

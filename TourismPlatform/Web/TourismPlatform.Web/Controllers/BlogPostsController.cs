@@ -4,6 +4,7 @@
     using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
+
     using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.AspNetCore.Identity;
@@ -45,7 +46,7 @@
             var user = await this.userManager.GetUserAsync(this.User);
             try
             {
-               await this.blogPostsService.AddSync(model, user.Id, $"{this.environment.WebRootPath}/blogPostImages");
+                await this.blogPostsService.AddSync(model, user.Id, $"{this.environment.WebRootPath}/blogPostImages");
             }
             catch (Exception ex)
             {
@@ -55,6 +56,25 @@
 
             // ToDo : Redirect to Blogs
             return this.Redirect("/");
+        }
+
+        public IActionResult All(int id = 1)
+        {
+            const int ItemsPerPage = 12;
+            var viewModel = new BlogPostsInListModel
+            {
+                ItemsPerPage = ItemsPerPage,
+                PageNumber = id,
+                BlogPostsCount = this.blogPostsService.GetCount(),
+                BlogPosts = this.blogPostsService.GetAll(id, ItemsPerPage),
+            };
+            return this.View(viewModel);
+        }
+
+        public IActionResult ById(int id)
+        {
+            var blogPost = this.blogPostsService.GetById<SingleBlogPostViewModel>(id);
+            return this.View(blogPost);
         }
     }
 }

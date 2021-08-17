@@ -20,30 +20,44 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <partial name="_LoginPartial" />
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
                         @if (this.User.Identity.IsAuthenticated)
                         {
                             if (this.User.IsInRole(GlobalConstants.TravelAgentRoleName))
                             {
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="Offerts" asp-action="Create">Create</a>
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Offerts" asp-action="MyOfferts">My Offers</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="Offerts" asp-action="MyOfferts">My Offerts</a>
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Offerts" asp-action="All">Offers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Offerts" asp-action="Create">Create offer</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="BlogPosts" asp-action="Create">Create Post</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="BlogPosts" asp-action="All">Blog</a>
                                 </li>
                             }
+                            else
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Offerts" asp-action="All">Offers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="SearchOfferts" asp-action="Index">Search</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="BlogPosts" asp-action="All">Blog</a>
+                                </li>
+                            }
+                        }
+                        else
+                        {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Offerts" asp-action="All">All Offerts</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="SearchOfferts" asp-action="Index">Search</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="BlogPosts" asp-action="Create">Blog</a>
-                            </li>
-
                         }
                         @if (this.User.IsInRole(GlobalConstants.AdministratorRoleName))
                         {

@@ -41,6 +41,8 @@
 
         public DbSet<BlogPost> BlogPosts { get; set; }
 
+        public DbSet<BlogImage> BlogImages { get; set; }
+
         public override int SaveChanges() => this.SaveChanges(true);
 
         public override int SaveChanges(bool acceptAllChangesOnSuccess)

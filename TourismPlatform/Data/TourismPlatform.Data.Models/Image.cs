@@ -13,7 +13,6 @@
             this.Id = Guid.NewGuid().ToString();
         }
 
-        [Required]
         [ForeignKey(nameof(Offert))]
         public string OffertId { get; set; }
 

@@ -264,6 +264,41 @@ namespace TourismPlatform.Data.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
+            modelBuilder.Entity("TourismPlatform.Data.Models.BlogImage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("BlogPostId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DeletedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Extension")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("ModifiedOn")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BlogPostId")
+                        .IsUnique();
+
+                    b.HasIndex("IsDeleted");
+
+                    b.ToTable("BlogImages");
+                });
+
             modelBuilder.Entity("TourismPlatform.Data.Models.BlogPost", b =>
                 {
                     b.Property<int>("Id")
@@ -284,9 +319,6 @@ namespace TourismPlatform.Data.Migrations
                     b.Property<DateTime?>("DeletedOn")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("ImageUrlId")
-                        .HasColumnType("nvarchar(450)");
-
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
@@ -301,8 +333,6 @@ namespace TourismPlatform.Data.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("AuthorId");
-
-                    b.HasIndex("ImageUrlId");
 
                     b.HasIndex("IsDeleted");
 
@@ -382,7 +412,6 @@ namespace TourismPlatform.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("OffertId")
-                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
@@ -612,19 +641,24 @@ namespace TourismPlatform.Data.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("TourismPlatform.Data.Models.BlogImage", b =>
+                {
+                    b.HasOne("TourismPlatform.Data.Models.BlogPost", "BlogPost")
+                        .WithOne("ImageUrl")
+                        .HasForeignKey("TourismPlatform.Data.Models.BlogImage", "BlogPostId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("BlogPost");
+                });
+
             modelBuilder.Entity("TourismPlatform.Data.Models.BlogPost", b =>
                 {
                     b.HasOne("TourismPlatform.Data.Models.ApplicationUser", "Author")
                         .WithMany("BlogPosts")
                         .HasForeignKey("AuthorId");
 
-                    b.HasOne("TourismPlatform.Data.Models.Image", "ImageUrl")
-                        .WithMany()
-                        .HasForeignKey("ImageUrlId");
-
                     b.Navigation("Author");
-
-                    b.Navigation("ImageUrl");
                 });
 
             modelBuilder.Entity("TourismPlatform.Data.Models.Error", b =>
@@ -646,9 +680,7 @@ namespace TourismPlatform.Data.Migrations
                 {
                     b.HasOne("TourismPlatform.Data.Models.Offert", "Offert")
                         .WithMany("Gallery")
-                        .HasForeignKey("OffertId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
+                        .HasForeignKey("OffertId");
 
                     b.Navigation("Offert");
                 });
@@ -706,6 +738,11 @@ namespace TourismPlatform.Data.Migrations
                     b.Navigation("Roles");
 
                     b.Navigation("Votes");
+                });
+
+            modelBuilder.Entity("TourismPlatform.Data.Models.BlogPost", b =>
+                {
+                    b.Navigation("ImageUrl");
                 });
 
             modelBuilder.Entity("TourismPlatform.Data.Models.Category", b =>

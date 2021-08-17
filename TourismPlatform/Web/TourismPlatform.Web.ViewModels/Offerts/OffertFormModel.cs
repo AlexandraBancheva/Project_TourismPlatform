@@ -47,6 +47,7 @@
 
         public IEnumerable<KeyValuePair<string, string>> TransportItems { get; set; }
 
+        [Required]
         public IEnumerable<IFormFile> Images { get; set; }
     }
 }
