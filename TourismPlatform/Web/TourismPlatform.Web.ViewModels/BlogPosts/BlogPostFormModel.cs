@@ -18,11 +18,10 @@
         [MinLength(20)]
         public string Content { get; set; }
 
-        [Required]
         public string AuthorId { get; set; }
 
-        [Required]
-        [Display(Name = "Upload an image")]
-        public IFormFile ImageUrl { get; set; }
+        //[Required]
+        //[Display(Name = "Upload an image")]
+        //public IFormFile ImageUrl { get; set; }
     }
 }

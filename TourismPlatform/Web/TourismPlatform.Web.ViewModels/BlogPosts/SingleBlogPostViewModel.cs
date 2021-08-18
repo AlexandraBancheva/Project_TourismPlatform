@@ -24,8 +24,8 @@
 
         public void CreateMappings(IProfileExpression configuration)
         {
-            configuration.CreateMap<BlogPost, SingleBlogPostViewModel>()
-                .ForMember(x => x.ImageUrl, opt => opt.MapFrom(x => "/blogPostImages/blogPostImages/" + x.ImageUrl.Id + "." + x.ImageUrl.Extension));
+            //configuration.CreateMap<BlogPost, SingleBlogPostViewModel>()
+            //    .ForMember(x => x.ImageUrl, opt => opt.MapFrom(x => "/blogPostImages/blogPostImages/" + x.ImageUrl.Id + "." + x.ImageUrl.Extension));
         }
     }
 }

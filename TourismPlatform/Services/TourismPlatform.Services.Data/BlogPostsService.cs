@@ -14,7 +14,6 @@
 
     public class BlogPostsService : IBlogPostsService
     {
-        private readonly string[] allowedExtensions = new[] { "jpg", "png", "gif" };
         private readonly IDeletableEntityRepository<BlogPost> blogPostsRepository;
 
         public BlogPostsService(IDeletableEntityRepository<BlogPost> blogPostsRepository)
@@ -22,7 +21,7 @@
             this.blogPostsRepository = blogPostsRepository;
         }
 
-        public async Task AddSync(BlogPostFormModel model, string authorId, string imagePath)
+        public async Task AddSync(BlogPostFormModel model, string authorId)
         {
             var blogPost = new BlogPost
             {
@@ -30,26 +29,6 @@
                 Content = model.Content,
                 AuthorId = authorId,
             };
-
-            Directory.CreateDirectory($"{imagePath}/blogPostImages/");
-            var image = model.ImageUrl;
-            var extension = Path.GetExtension(image.FileName).TrimStart('.');
-            if (!this.allowedExtensions.Any(x => extension.EndsWith(x)))
-            {
-                throw new Exception($"Invalid image extension {extension}");
-            }
-
-            var dbImage = new BlogImage
-            {
-                Extension = extension,
-            };
-
-            blogPost.ImageUrl = dbImage;
-
-            var physicalPath = $"{imagePath}/blogPostImages/{dbImage.Id}.{extension}";
-            using Stream fileStream = new FileStream(physicalPath, FileMode.Create);
-
-            await image.CopyToAsync(fileStream);
 
             await this.blogPostsRepository.AddAsync(blogPost);
             await this.blogPostsRepository.SaveChangesAsync();
@@ -64,7 +43,6 @@
                     Title = x.Title,
                     AuthorId = x.AuthorId,
                     AuthorName = x.Author.FullName,
-                    ImageUrl = "/blogPostImages/blogPostImages/" + x.ImageUrl.Id + "." + x.ImageUrl.Extension,
                 })
                 .ToList();
 
@@ -81,6 +59,13 @@
             var blogPost = this.blogPostsRepository.AllAsNoTracking().Where(x => x.Id == id).To<T>().FirstOrDefault();
 
             return blogPost;
+        }
+
+        public async Task DeleteAsync(int id)
+        {
+            var blogPost = this.blogPostsRepository.All().FirstOrDefault(x => x.Id == id);
+            this.blogPostsRepository.Delete(blogPost);
+            await this.blogPostsRepository.SaveChangesAsync();
         }
     }
 }

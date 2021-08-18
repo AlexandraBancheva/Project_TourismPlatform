@@ -17,9 +17,12 @@
         <span asp-validation-for="Content" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="ImageUrl"></label>
-        <input asp-for="ImageUrl" class="form-control" />
-        <span asp-validation-for="ImageUrl" class="text-danger"></span>
+        <img class="d-block w-100" src="~/images/somethingInt/Something InterestingTourismPost Here.jpg" alt="Third slide">
     </div>
+    @*<div class="form-group">
+            <label asp-for="ImageUrl"></label>
+            <input asp-for="ImageUrl" class="form-control" />
+            <span asp-validation-for="ImageUrl" class="text-danger"></span>
+        </div>*@
     <input type="submit" class="btn btn-primary" value="Create" />
 </form>

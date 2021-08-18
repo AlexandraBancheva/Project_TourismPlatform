@@ -8,7 +8,7 @@
     using TourismPlatform.Data.Models;
     using TourismPlatform.Services.Mapping;
 
-    public class BlogPostViewModel : IMapFrom<BlogPost>, IHaveCustomMappings
+    public class BlogPostViewModel : IMapFrom<BlogPost>
     {
         public int Id { get; set; }
 
@@ -19,11 +19,5 @@
         public string AuthorName { get; set; }
 
         public string ImageUrl { get; set; }
-
-        public void CreateMappings(IProfileExpression configuration)
-        {
-            configuration.CreateMap<BlogPost, BlogPostViewModel>()
-                .ForMember(x => x.ImageUrl, opt => opt.MapFrom(ib => "/blogPostImages/blogPostImages/" + ib.ImageUrl.Id + "." + ib.ImageUrl.Extension));
-        }
     }
 }

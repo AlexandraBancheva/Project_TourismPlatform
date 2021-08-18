@@ -1,4 +1,5 @@
 ﻿@model TourismPlatform.Web.ViewModels.BlogPosts.SingleBlogPostViewModel
+@using TourismPlatform.Common
 @{
     this.ViewData["Title"] = Model.Title;
     this.ViewData["Author"] = Model.AuthorName;
@@ -6,14 +7,34 @@
 <div class="container">
     <div>
         <h2>@this.Model.Title</h2>
-        <span>Author: @Model.AuthorName</span>
     </div>
     <br />
-
-    <div class="card" style="width: 60rem;">
-        <img class="card-img-top" src="@Model.ImageUrl" alt="@Model.Title">
+    @if (this.User.IsInRole(GlobalConstants.AdministratorRoleName))
+    {
+        <li class="single-meta">
+            <form method="post" asp-action="Delete" id="deleteForm" asp-route-id="@Model.Id">
+            </form>
+            <button class="btn btn-danger" data-toggle="modal" data-target="#deleteModal">Delete</button>
+        </li>
+    }
+    <div class="card" style="width: 30rem;">
+        <img class="card-img-top" src="/images/somethingInt/Something InterestingTourismPost Here.jpg" alt="@Model.Title">
         <div class="card-body">
             <p class="card-text">@Model.Content</p>
+        </div>
+    </div>
+</div>
+
+<div class="modal" tabindex="-1" role="dialog" id="deleteModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <p>Do you want to delete "@Model.Title"?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" onclick="deleteForm.submit()">Yes</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+            </div>
         </div>
     </div>
 </div>

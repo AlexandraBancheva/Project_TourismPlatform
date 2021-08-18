@@ -17,12 +17,14 @@
     public class BlogPostsController : BaseController
     {
         private readonly IBlogPostsService blogPostsService;
+        private readonly IOffertsService offertsService;
         private readonly IWebHostEnvironment environment;
         private readonly UserManager<ApplicationUser> userManager;
 
-        public BlogPostsController(IBlogPostsService blogPostsService, IWebHostEnvironment environment, UserManager<ApplicationUser> userManager)
+        public BlogPostsController(IBlogPostsService blogPostsService, IOffertsService offertsService, IWebHostEnvironment environment, UserManager<ApplicationUser> userManager)
         {
             this.blogPostsService = blogPostsService;
+            this.offertsService = offertsService;
             this.environment = environment;
             this.userManager = userManager;
         }
@@ -46,7 +48,7 @@
             var user = await this.userManager.GetUserAsync(this.User);
             try
             {
-                await this.blogPostsService.AddSync(model, user.Id, $"{this.environment.WebRootPath}/blogPostImages");
+                await this.blogPostsService.AddSync(model, user.Id);
             }
             catch (Exception ex)
             {
@@ -75,6 +77,14 @@
         {
             var blogPost = this.blogPostsService.GetById<SingleBlogPostViewModel>(id);
             return this.View(blogPost);
+        }
+
+        [HttpPost]
+        [Authorize(Roles = GlobalConstants.AdministratorRoleName)]
+        public async Task<IActionResult> Delete(int id)
+        {
+            await this.blogPostsService.DeleteAsync(id);
+            return this.RedirectToAction(nameof(this.All));
         }
     }
 }

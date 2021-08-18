@@ -9,7 +9,7 @@
     @foreach (var blogPost in Model.BlogPosts)
     {
         <div class="col-md-4 col-xs-6">
-            <img src="@blogPost.ImageUrl" class="img-thumbnail" width="300" />
+            <img src="/images/somethingInt/Something InterestingTourismPost Here.jpg" class="img-thumbnail" width="300" />
             <div class="media-body">
                 <h5 class="mt-0"><a asp-action="ById" asp-route-id="@blogPost.Id">@blogPost.Title</a></h5>
                 <span>Автор: @blogPost.AuthorName</span>
@@ -41,7 +41,7 @@
         {
             if (i <= Model.PagesCount)
             {
-                <li class="page-item"><a class="page-link" asp-action="Al" asp-route-id="@i"></a></li>
+                <li class="page-item"><a class="page-link" asp-action="All" asp-route-id="@i"></a></li>
             }
         }
         <li class="page-item @if (!Model.HasNextPage) { <text>disabled</text> }">

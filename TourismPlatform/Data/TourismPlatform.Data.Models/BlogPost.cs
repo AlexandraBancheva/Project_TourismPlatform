@@ -23,6 +23,5 @@
 
         public virtual ApplicationUser Author { get; set; }
 
-        public BlogImage ImageUrl { get; set; }
     }
 }
