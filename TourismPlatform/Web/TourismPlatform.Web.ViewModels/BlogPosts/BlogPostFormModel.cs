@@ -10,18 +10,14 @@
     public class BlogPostFormModel
     {
         [Required]
-        [Display(Name = "Title")]
+        [Display(Name = "Заглавие")]
         public string Title { get; set; }
 
         [Required]
-        [Display(Name = "Content")]
+        [Display(Name = "Съдържание")]
         [MinLength(20)]
         public string Content { get; set; }
 
         public string AuthorId { get; set; }
-
-        //[Required]
-        //[Display(Name = "Upload an image")]
-        //public IFormFile ImageUrl { get; set; }
     }
 }

@@ -32,7 +32,7 @@
         public IEnumerable<T> GetAllCategories<T>()
         {
             return this.categoryRepository.All()
-                .OrderBy(X => X.Id)
+                .OrderBy(x => x.Id)
                 .To<T>()
                 .ToList();
         }

@@ -1,6 +1,6 @@
 ﻿@model TourismPlatform.Web.ViewModels.BlogPosts.BlogPostFormModel
 @{ 
-    this.ViewData["Title"] = "Create a blog post";
+    this.ViewData["Title"] = "Създаване на пост";
 }
 
 <form method="post" class="col-md-6 offset-md-3" enctype="multipart/form-data">
@@ -19,10 +19,5 @@
     <div class="form-group">
         <img class="d-block w-100" src="~/images/somethingInt/Something InterestingTourismPost Here.jpg" alt="Third slide">
     </div>
-    @*<div class="form-group">
-            <label asp-for="ImageUrl"></label>
-            <input asp-for="ImageUrl" class="form-control" />
-            <span asp-validation-for="ImageUrl" class="text-danger"></span>
-        </div>*@
-    <input type="submit" class="btn btn-primary" value="Create" />
+    <input type="submit" class="btn btn-primary" value="Създаване" />
 </form>

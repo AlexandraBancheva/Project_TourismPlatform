@@ -1,6 +1,6 @@
 ﻿@model TourismPlatform.Web.ViewModels.Offerts.OffertFormModel
 @{
-    this.ViewData["Title"] = "Add new offer";
+    this.ViewData["Title"] = "Добавяне на нова оферта";
     var categoryItems = this.Model.CategoryItems.Select(x => new SelectListItem(x.Value, x.Key));
     var transportItems = this.Model.TransportItems.Select(x => new SelectListItem(x.Value, x.Key));
 }
@@ -16,12 +16,12 @@
     </div>
     <div class="form-group">
         <label asp-for="StartTrip"></label>
-        <input asp-for="StartTrip" class="form-control" type="date" />
+        <input asp-for="StartTrip" class="form-control" type="date" value="mm-dd-yyyy" />
         <span asp-validation-for="StartTrip" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="EndTrip"></label>
-        <input asp-for="EndTrip" class="form-control" type="date" />
+        <input asp-for="EndTrip" class="form-control" type="date" value="mm-dd-yyyy" />
         <span asp-validation-for="EndTrip" class="text-danger"></span>
     </div>
     <div class="form-group">
@@ -54,5 +54,5 @@
         <input asp-for="Images" class="form-control" />
         <span asp-validation-for="Images" class="text-danger"></span>
     </div>
-    <input type="submit" class="btn btn-primary" value="Create" />
+    <input type="submit" class="btn btn-primary" value="Създаване" />
 </form>

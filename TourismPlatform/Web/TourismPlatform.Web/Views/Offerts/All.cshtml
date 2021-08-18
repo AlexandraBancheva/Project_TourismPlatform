@@ -1,6 +1,6 @@
 ﻿@model TourismPlatform.Web.ViewModels.Offerts.OffertsInListModel
 @{ 
-    this.ViewData["Title"] = "All offerts";
+    this.ViewData["Title"] = "Всички оферти";
 }
 
 <h1>@this.ViewData["Title"]</h1>
@@ -12,11 +12,11 @@
             <img src="@offert.ImageUrl" class="img-thumbnail" width="300" />
             <div class="media-body">
                 <h5 class="mt-0"><a asp-action="ById" asp-route-id="@offert.Id">@offert.FullName</a></h5>
-                <span>Date: @offert.StartDate.ToShortDateString() - @offert.EndDate.ToShortDateString()</span>
+                <span>Дата: @offert.StartDate.ToString("dd.MM.yyyy") - @offert.EndDate.ToString("dd.MM.yyyy")</span>
                 <br />
-                <span>Transport: @offert.TransportName</span>
+                <span>Транспорт: @offert.TransportName</span>
                 <br />
-                <span>Price per person: @offert.PricePerPerson lv.</span>
+                <span>Цена на човек: @offert.PricePerPerson лева</span>
             </div>
         </div>
     }
@@ -26,7 +26,7 @@
 <nav aria-label="...">
     <ul class="pagination justify-content-center">
         <li class="page-item @if (!Model.HasPreviousPage) { <text>disabled</text> }">
-            <a class="page-link" asp-action="All" asp-route-id="@Model.PreviousPageNumber">Previous</a>
+            <a class="page-link" asp-action="All" asp-route-id="@Model.PreviousPageNumber">Предишна</a>
         </li>
         @for (int i = Model.PageNumber - 3; i < Model.PageNumber; i++)
         {
@@ -49,7 +49,7 @@
             }
         }
         <li class="page-item @if (!Model.HasNextPage) { <text>disabled</text> }">
-            <a class="page-link" asp-action="All" asp-route-id="@Model.NextPageNumber">Next</a>
+            <a class="page-link" asp-action="All" asp-route-id="@Model.NextPageNumber">Следваща</a>
         </li>
     </ul>
 </nav>

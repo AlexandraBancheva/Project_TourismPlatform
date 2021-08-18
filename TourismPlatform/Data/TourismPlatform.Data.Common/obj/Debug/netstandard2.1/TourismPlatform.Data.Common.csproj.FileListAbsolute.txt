@@ -19,7 +19,6 @@ C:\Users\Alex\Desktop\TourismPlatform_project\Tourism Platform\Project_TourismPl
 C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data.Common\bin\Debug\netstandard2.1\TourismPlatform.Data.Common.deps.json
 C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data.Common\bin\Debug\netstandard2.1\TourismPlatform.Data.Common.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data.Common\bin\Debug\netstandard2.1\TourismPlatform.Data.Common.pdb
-C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data.Common\obj\Debug\netstandard2.1\TourismPlatform.Data.Common.csproj.AssemblyReference.cache
 C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data.Common\obj\Debug\netstandard2.1\TourismPlatform.Data.Common.AssemblyInfoInputs.cache
 C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data.Common\obj\Debug\netstandard2.1\TourismPlatform.Data.Common.AssemblyInfo.cs
 C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Data\TourismPlatform.Data.Common\obj\Debug\netstandard2.1\TourismPlatform.Data.Common.csproj.CoreCompileInputs.cache

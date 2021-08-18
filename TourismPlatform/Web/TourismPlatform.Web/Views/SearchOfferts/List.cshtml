@@ -1,12 +1,12 @@
 ﻿@model TourismPlatform.Web.ViewModels.SearchOfferts.ListOffertsByCategoryViewModel
 @{
-    ViewData["Title"] = "Search result";
+    ViewData["Title"] = "Намерени резултати:";
 }
 
 <h1>@ViewData["Title"]</h1>
 @if (!Model.OffertsBySearchedCategory.Any())
 {
-    <p>Nothing found.</p>
+    <p>Съжаляваме, но нищо не е намерено.</p>
 }
 else
 {
@@ -17,7 +17,7 @@ else
                 <img class="card-img-top" src="@offert.ImageUrl" alt="@offert.FullName">
                 <div class="card-body">
                     <h5 class="card-title">@offert.FullName</h5>
-                    <a asp-controller="Offerts" asp-action="ById" asp-route-id="@offert.Id" class="btn btn-primary">Go to offert</a>
+                    <a asp-controller="Offerts" asp-action="ById" asp-route-id="@offert.Id" class="btn btn-primary">Към офертата</a>
                 </div>
             </div>
         }

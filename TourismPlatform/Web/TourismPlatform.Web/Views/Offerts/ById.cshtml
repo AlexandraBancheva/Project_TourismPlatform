@@ -18,37 +18,37 @@
 @if (this.User.IsInRole(GlobalConstants.AdministratorRoleName))
 {
     <li class="single-meta">
-        <a asp-controller="Offerts" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-secondary">Edit</a>
+        <a asp-controller="Offerts" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-secondary">Редактиране</a>
     </li>
     <li class="single-meta">
         <form method="post" asp-action="Delete" id="deleteForm" asp-route-id="@Model.Id">
         </form>
-        <button class="btn btn-danger" data-toggle="modal" data-target="#deleteModal">Delete</button>
+        <button class="btn btn-danger" data-toggle="modal" data-target="#deleteModal">Изтриване</button>
     </li>
 }
 <div class="item-figure">
     <img class="img-fluid w-95" src="@Model.ImageUrl" alt="@Model.FullName" />
 </div>
 <div class="ctg-name">
-    <h5><span>Category: @Model.CategoryName</span></h5>
+    <h5><span>Категория: @Model.CategoryName</span></h5>
 </div>
 <div class="ctg-name">
-    <h5><span>Transport: @Model.TransportName</span></h5>
+    <h5><span>Транспорт: @Model.TransportName</span></h5>
 </div>
 <div class="ctg-name">
-    <h5>Price per person: @Model.PricePerPerson lv.</h5>
+    <h5>Цена на човек: @Model.PricePerPerson лева </h5>
 </div>
 <hr />
 <div class="making-elements-wrap">
     <div class="row">
         <div class="col-md-6">
-            <h5><u><b>Price includes:</b></u></h5>
+            <h5><u><b>Цената включва:</b></u></h5>
             <p class="item-description">
                 @Model.PriceIncludes
             </p>
         </div>
         <div class="col-md-6">
-            <h5><u><b>Price does not include:</b></u></h5>
+            <h5><u><b>Цената не включва:</b></u></h5>
             <p class="item-description">
                 @Model.PriceDoesNotInclude
             </p>
@@ -88,11 +88,11 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-body">
-                <p>Do you want to delete "@Model.FullName"?</p>
+                <p>Наистина ли желаете да изтриете "@Model.FullName"?</p>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-danger" onclick="deleteForm.submit()">Yes</button>
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+                <button type="button" class="btn btn-danger" onclick="deleteForm.submit()">Да</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Не</button>
             </div>
         </div>
     </div>

@@ -8,13 +8,12 @@
     <div>
         <h2>@this.Model.Title</h2>
     </div>
-    <br />
     @if (this.User.IsInRole(GlobalConstants.AdministratorRoleName))
     {
         <li class="single-meta">
             <form method="post" asp-action="Delete" id="deleteForm" asp-route-id="@Model.Id">
             </form>
-            <button class="btn btn-danger" data-toggle="modal" data-target="#deleteModal">Delete</button>
+            <button class="btn btn-danger" data-toggle="modal" data-target="#deleteModal">Изтриване</button>
         </li>
     }
     <div class="card" style="width: 30rem;">
@@ -29,11 +28,11 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-body">
-                <p>Do you want to delete "@Model.Title"?</p>
+                <p>Желаете ли да изтриете "@Model.Title"?</p>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-danger" onclick="deleteForm.submit()">Yes</button>
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+                <button type="button" class="btn btn-danger" onclick="deleteForm.submit()">Да</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Не</button>
             </div>
         </div>
     </div>

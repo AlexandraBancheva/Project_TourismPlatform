@@ -25,44 +25,44 @@
                             if (this.User.IsInRole(GlobalConstants.TravelAgentRoleName))
                             {
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="Offerts" asp-action="MyOfferts">My Offers</a>
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Offerts" asp-action="MyOfferts">Моите оферти</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="Offerts" asp-action="All">Offers</a>
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Offerts" asp-action="All">Всички оферти</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="Offerts" asp-action="Create">Create offer</a>
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Offerts" asp-action="Create">Създаване на оферта</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="BlogPosts" asp-action="Create">Create Post</a>
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="BlogPosts" asp-action="Create">Създаване на пост</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="BlogPosts" asp-action="All">Blog</a>
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="BlogPosts" asp-action="All">Блог</a>
                                 </li>
                             }
                             else
                             {
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="Offerts" asp-action="All">Offers</a>
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Offerts" asp-action="All">Всички оферти</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="SearchOfferts" asp-action="Index">Search</a>
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="SearchOfferts" asp-action="Index">Търсене</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="BlogPosts" asp-action="All">Blog</a>
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="BlogPosts" asp-action="All">Блог</a>
                                 </li>
                             }
                         }
                         else
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Начална страница</a>
                             </li>
                         }
                         @if (this.User.IsInRole(GlobalConstants.AdministratorRoleName))
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="Administration" asp-controller="Offerts" asp-action="Index">Offerts Admin</a>
+                                <a class="nav-link text-dark" asp-area="Administration" asp-controller="Offerts" asp-action="Index">Админ оферти</a>
                             </li>
                         }
                     </ul>

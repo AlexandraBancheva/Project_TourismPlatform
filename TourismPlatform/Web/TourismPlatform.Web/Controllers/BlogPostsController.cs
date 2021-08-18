@@ -56,7 +56,6 @@
                 return this.View(model);
             }
 
-            // ToDo : Redirect to Blogs
             return this.Redirect("/");
         }
 

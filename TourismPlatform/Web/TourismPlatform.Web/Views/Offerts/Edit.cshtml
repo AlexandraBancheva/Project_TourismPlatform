@@ -1,6 +1,6 @@
 ﻿@model TourismPlatform.Web.ViewModels.Offerts.EditOffertFormModel
 @{ 
-    ViewData["Title"] = "Edit offert";
+    ViewData["Title"] = "Редактиране на оферта";
     var categoryItems = this.Model.CategoryItems.Select(x => new SelectListItem(x.Value, x.Key));
     var transportItems = this.Model.TransportItems.Select(x => new SelectListItem(x.Value, x.Key));
 }
@@ -57,7 +57,7 @@
     <input type="hidden" asp-for="Id" />
 </form>
 
-<button type="submit" class="btn btn-success" data-toggle="modal" data-target="#modalEdit">Save changes</button>
+<button type="submit" class="btn btn-success" data-toggle="modal" data-target="#modalEdit">Запази промените</button>
 
 
 <div class="modal" id="modalEdit" tabindex="-1" role="dialog">
@@ -71,12 +71,12 @@
             </div>
             <div class="modal-body">
                 <p>
-                    Do you confirm this changes?
+                    Потвърждавате ли направени промени?
                 </p>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="editForm.submit()">Save changes</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Затвори</button>
+                <button type="button" class="btn btn-primary" onclick="editForm.submit()">Запази промените</button>
             </div>
         </div>
     </div>
