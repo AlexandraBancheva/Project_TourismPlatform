@@ -72,3 +72,4 @@ C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPla
 C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services.Data\obj\Debug\netstandard2.1\TourismPlatform.Services.Data.pdb
 C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services.Data\bin\Debug\netstandard2.1\TourismPlatform.Common.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services.Data\bin\Debug\netstandard2.1\TourismPlatform.Common.pdb
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services.Data\obj\Debug\netstandard2.1\TourismPlatform.Services.Data.GeneratedMSBuildEditorConfig.editorconfig

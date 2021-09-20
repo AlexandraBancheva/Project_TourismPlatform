@@ -5,6 +5,7 @@
     using System.Linq;
 
     using Microsoft.AspNetCore.Mvc;
+    using TourismPlatform.Common;
     using TourismPlatform.Data.Common.Repositories;
     using TourismPlatform.Data.Models;
     using TourismPlatform.Services.Data;
@@ -24,7 +25,9 @@
 
         public IActionResult Index()
         {
-            return this.View();
+
+            var randomOfferts = this.offertsService.GetRandom(GlobalConstants.RandomNumbersOfOfferts).ToList();
+            return this.View(randomOfferts);
         }
 
         public IActionResult Privacy()

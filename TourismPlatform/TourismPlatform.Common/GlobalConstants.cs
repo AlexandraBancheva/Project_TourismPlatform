@@ -9,5 +9,7 @@
         public const string TravelAgentRoleName = "TravelAgent";
 
         public const int MaxLengthTitleBlogPost = 20;
+
+        public const int RandomNumbersOfOfferts = 4;
     }
 }

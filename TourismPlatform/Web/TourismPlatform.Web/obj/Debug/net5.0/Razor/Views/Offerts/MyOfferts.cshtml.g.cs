@@ -26,8 +26,15 @@ using TourismPlatform.Web.ViewModels;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Web\TourismPlatform.Web\Views\_ViewImports.cshtml"
+using TourismPlatform.Web.ViewModels.Home;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"af8c6e4229fe70f85eea5df5e0cc038c788d8bf4", @"/Views/Offerts/MyOfferts.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"139f71cdf6b999ccf0e47f2ec241a607bf18962b", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7ff0a8bed4175cf8cff2db711d6d77bfd05eb7c9", @"/Views/_ViewImports.cshtml")]
     public class Views_Offerts_MyOfferts : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<TourismPlatform.Web.ViewModels.Offerts.MyAllOffertsViewModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Offerts", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -114,7 +121,7 @@ WriteAttributeValue("", 408, offert.ImageUrl, 408, 16, false);
 #nullable disable
             EndWriteAttribute();
             WriteLiteral(" width=\"100\" class=\"mr-3\" />\r\n                <div class=\"media-body\">\r\n                    <h5 class=\"mt-0\">");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "af8c6e4229fe70f85eea5df5e0cc038c788d8bf47013", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "af8c6e4229fe70f85eea5df5e0cc038c788d8bf47273", async() => {
 #nullable restore
 #line 20 "C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Web\TourismPlatform.Web\Views\Offerts\MyOfferts.cshtml"
                                                                                                         Write(offert.FullName);
@@ -193,7 +200,7 @@ WriteAttributeValue("", 408, offert.ImageUrl, 408, 16, false);
             ), 834, 54, false);
             EndWriteAttribute();
             WriteLiteral(">\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "af8c6e4229fe70f85eea5df5e0cc038c788d8bf411645", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "af8c6e4229fe70f85eea5df5e0cc038c788d8bf411905", async() => {
                 WriteLiteral("Предишна");
             }
             );
@@ -236,7 +243,7 @@ WriteAttributeValue("", 408, offert.ImageUrl, 408, 16, false);
 #line hidden
 #nullable disable
             WriteLiteral("                    <li class=\"page-item\">");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "af8c6e4229fe70f85eea5df5e0cc038c788d8bf414431", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "af8c6e4229fe70f85eea5df5e0cc038c788d8bf414691", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper>();
@@ -295,7 +302,7 @@ WriteAttributeValue("", 408, offert.ImageUrl, 408, 16, false);
 #line hidden
 #nullable disable
             WriteLiteral("                    <li class=\"page-item\">");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "af8c6e4229fe70f85eea5df5e0cc038c788d8bf418012", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "af8c6e4229fe70f85eea5df5e0cc038c788d8bf418272", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper>();
@@ -359,7 +366,7 @@ WriteAttributeValue("", 408, offert.ImageUrl, 408, 16, false);
             ), 1881, 50, false);
             EndWriteAttribute();
             WriteLiteral(">\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "af8c6e4229fe70f85eea5df5e0cc038c788d8bf421752", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "af8c6e4229fe70f85eea5df5e0cc038c788d8bf422012", async() => {
                 WriteLiteral("Следваща");
             }
             );

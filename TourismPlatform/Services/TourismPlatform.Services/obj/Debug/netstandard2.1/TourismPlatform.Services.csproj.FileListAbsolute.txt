@@ -25,3 +25,4 @@ C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPla
 C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services\obj\Debug\netstandard2.1\TourismPlatform.Services.dll
 C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services\obj\Debug\netstandard2.1\TourismPlatform.Services.pdb
 C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services\obj\Debug\netstandard2.1\TourismPlatform.Services.csproj.AssemblyReference.cache
+C:\Users\Alex\Desktop\TourismPlatform_project\Project_TourismPlatform\TourismPlatform\Services\TourismPlatform.Services\obj\Debug\netstandard2.1\TourismPlatform.Services.GeneratedMSBuildEditorConfig.editorconfig
